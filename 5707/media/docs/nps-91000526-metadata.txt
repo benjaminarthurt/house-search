@@ -1,0 +1,18 @@
+NPS / NPGallery metadata for NRHP 91000526
+
+National Register Information System ID: 91000526
+Resource name (displayed): Timothy, House
+Multiple Listing: Mexico MPS
+Applicable Criteria: Architecture/Engineering
+Architectural Styles: Italianate
+Architects: Unknown
+Areas Of Significance: Architecture
+Periods Of Significance: 1850-1874
+Significant Years: 1865
+Resource Type: Building
+Keywords: 1865
+Note: 5355 Scenic Ave.
+Date Published: 6/20/1991
+
+Saved from local asset-detail HTML pages in assets/raw-html/.
+Note: the currently served PDF endpoint is a one-page placeholder stating the full National Register record has not yet been digitized.

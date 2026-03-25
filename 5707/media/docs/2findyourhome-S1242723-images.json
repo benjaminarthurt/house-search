@@ -1,0 +1,68 @@
+[
+  {
+    "src": "https://2findyourhome.com/images/BNAR_Logo.jpg",
+    "alt": "logo",
+    "w": 640,
+    "h": 132
+  },
+  {
+    "src": "https://2findyourhome.com/images/bnar_logo_mob.jpg",
+    "alt": "bnar-mob-logo",
+    "w": 66,
+    "h": 66
+  },
+  {
+    "src": "https://api.cotality.com/trestle/Media/Property/PHOTO-Jpeg/366606659/1/OTg0OC8xMDI5OC82Ng/NjYvMTk5NjcvMTc2NjMxMTM5NQ/WDXrLZUEXehHn7ZFEdgZPsBrgrbbOTAoB3GhXIQJ3og?width=3840&quality=100",
+    "alt": "photo 0: 5707 Scenic Avenue, Mexico NY 13114",
+    "w": 1024,
+    "h": 768
+  },
+  {
+    "src": "https://rqstatic.com/images/details-page-map-image.png?width=3840&quality=100",
+    "alt": "",
+    "w": 678,
+    "h": 236
+  },
+  {
+    "src": "https://2findyourhome.com/images/broker_reciprocity.png",
+    "alt": "broker_reciprocity",
+    "w": 0,
+    "h": 0
+  },
+  {
+    "src": "https://api.cotality.com/trestle/Media/Member/PHOTO-Jpeg/7856481/1/OTg0OC8xMDI5OC82Ng/NjYvMTk5NjcvMTc3NDM1NzQ4Mw/yq1w078IwOjbgSVtqqMO0NryOQ_V5uEGuIY6Ax-rFvc",
+    "alt": "profile pic",
+    "w": 546,
+    "h": 640
+  },
+  {
+    "src": "https://2findyourhome.com/images/broker_reciprocity.png",
+    "alt": "broker_reciprocity",
+    "w": 0,
+    "h": 0
+  },
+  {
+    "src": "https://rqstatic.com/images/Realoq_white.svg",
+    "alt": "LOGO",
+    "w": 90,
+    "h": 24
+  },
+  {
+    "src": "https://2findyourhome.com/images/reis_mls.webp",
+    "alt": "EqualHousingMLS",
+    "w": 213,
+    "h": 75
+  },
+  {
+    "src": "https://2findyourhome.com/images/equal_housing_mls.webp",
+    "alt": "EqualHousingMLS",
+    "w": 201,
+    "h": 75
+  },
+  {
+    "src": "https://2findyourhome.com/images/bnar_logo_mob.jpg",
+    "alt": "LOGO",
+    "w": 66,
+    "h": 66
+  }
+]

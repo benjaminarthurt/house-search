@@ -1,0 +1,573 @@
+ <!DOCTYPE html><html lang="en" dir="ltr" data-tcc-ignore=""><head><title>Maple View</title><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><link rel="stylesheet" type="text/css" href="site.css?v="><script> if (typeof ($sf) === "undefined") { $sf = { baseUrl: "https://img1.wsimg.com/wst/v7/WSB7_J_20251223_0920_orion-cle_6320/v2", skin: "app", preload: 0, require: { jquery: "https://img1.wsimg.com/wst/v7/WSB7_J_20251223_0920_orion-cle_6320/v2/libs/jquery/jq.js", paths: { "wsbcore": "common/wsb/core", "knockout": "libs/knockout/knockout" } } }; } </script><script id="duel" src="//img1.wsimg.com/starfield/duel/v2.5.8/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k"></script><script> define('jquery', ['jq!starfield/jquery.mod'], function(m) { return m; }); define('appconfig', [], { documentDownloadBaseUrl: 'https://nebula.wsimg.com' }); </script><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="Content-Location" content="maple-view.html"><meta name="generator" content="Starfield Technologies; Go Daddy Website Builder 7.0.5350"><meta property="og:type" content="website"><meta property="og:title" content="Maple View"><meta property="og:site_name" content="Mexico Historical Society"><meta property="og:url" content="http://www.mexiconyhistoricalsociety.com/maple-view.html"><meta property="og:image" content="https://nebula.wsimg.com/1359f3ef32aaebc0ed5968cfdfe65986?AccessKeyId=2B092E40C7D4C6D5FCC7&disposition=0&alloworigin=1"></head><body><style data-inline-fonts>/* vietnamese */
+@font-face {
+  font-family: 'Allura';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/allura/v23/9oRPNYsQpS4zjuA_hAgWDto.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Allura';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/allura/v23/9oRPNYsQpS4zjuA_hQgWDto.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Allura';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/allura/v23/9oRPNYsQpS4zjuA_iwgW.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/amaticsc/v28/TUZyzwprpvBS1izr_vOEDuSfQZQ.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/amaticsc/v28/TUZyzwprpvBS1izr_vOECOSfQZQ.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/amaticsc/v28/TUZyzwprpvBS1izr_vOEBeSfQZQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/amaticsc/v28/TUZyzwprpvBS1izr_vOEBOSfQZQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/amaticsc/v28/TUZyzwprpvBS1izr_vOECuSf.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Arizonia';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/arizonia/v23/neIIzCemt4A5qa7mv5WOFqwKUQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Arizonia';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/arizonia/v23/neIIzCemt4A5qa7mv5WPFqwKUQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Arizonia';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/arizonia/v23/neIIzCemt4A5qa7mv5WBFqw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Averia Sans Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/averiasanslibre/v20/ga6XaxZG_G5OvCf_rt7FH3B6BHLMEdVOEoI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/cabinsketch/v23/QGYpz_kZZAGCONcK2A4bGOj8mNhN.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/francoisone/v22/_Xmr-H4zszafZw3A-KPSZut9zgiRi_Y.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/francoisone/v22/_Xmr-H4zszafZw3A-KPSZut9zwiRi_Y.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/francoisone/v22/_Xmr-H4zszafZw3A-KPSZut9wQiR.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Fredericka the Great';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/frederickathegreat/v23/9Bt33CxNwt7aOctW2xjbCstzwVKsIBVV--StxbcVcg.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Fredericka the Great';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/frederickathegreat/v23/9Bt33CxNwt7aOctW2xjbCstzwVKsIBVV--Sjxbc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Jacques Francois Shadow';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/jacquesfrancoisshadow/v27/KR1FBtOz8PKTMk-kqdkLVrvR0ECFrB6Pin-2_p8Suno.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/josefinslab/v29/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W71msR349Kg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/kaushanscript/v19/vm8vdRfvXFLG3OLnsO15WYS5DG72wNJHMw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/kaushanscript/v19/vm8vdRfvXFLG3OLnsO15WYS5DG74wNI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Love Ya Like A Sister';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/loveyalikeasister/v23/R70EjzUBlOqPeouhFDfR80-0FhOqJubN-BeL-3xdgGE.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Love Ya Like A Sister';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/loveyalikeasister/v23/R70EjzUBlOqPeouhFDfR80-0FhOqJubN-BeL9Xxd.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaGV31GvU.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaEF31GvU.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaG131GvU.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaGl31GvU.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaFF31.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Offside';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/offside/v26/HI_KiYMWKa9QrAykc5joR6-d.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Offside';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/offside/v26/HI_KiYMWKa9QrAykc5boRw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVIGxA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4saVIGxA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4jaVIGxA.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4iaVIGxA.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* math */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B5caVIGxA.woff2) format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B5OaVIGxA.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4vaVIGxA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVIGxA.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUtiZTaR.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUJiZTaR.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUliZTaR.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUhiZTaR.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiZQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Over the Rainbow';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/overtherainbow/v23/11haGoXG1k_HKhMLUWz7Mc7vvW5ulvqs9eA2.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Over the Rainbow';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/overtherainbow/v23/11haGoXG1k_HKhMLUWz7Mc7vvW5ulvSs9Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/pacifico/v23/FwZY7-Qmy14u9lezJ-6K6MmTpA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/pacifico/v23/FwZY7-Qmy14u9lezJ-6D6MmTpA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/pacifico/v23/FwZY7-Qmy14u9lezJ-6I6MmTpA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/pacifico/v23/FwZY7-Qmy14u9lezJ-6J6MmTpA.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/pacifico/v23/FwZY7-Qmy14u9lezJ-6H6Mk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Romanesco';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/romanesco/v22/w8gYH2ozQOY7_r_J7mSX1XYKmOo.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Romanesco';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/romanesco/v22/w8gYH2ozQOY7_r_J7mSX23YK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Sacramento';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/sacramento/v17/buEzpo6gcdjy0EiZMBUG4CMf_exL.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Sacramento';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/sacramento/v17/buEzpo6gcdjy0EiZMBUG4C0f_Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Seaweed Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/seaweedscript/v17/bx6cNx6Tne2pxOATYE8C_Rsoe3WA8qY2VQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Seaweed Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/seaweedscript/v17/bx6cNx6Tne2pxOATYE8C_Rsoe3WO8qY.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/specialelite/v20/XLYgIZbkc4JPUL5CVArUVL0ntn4OSEFt.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/specialelite/v20/XLYgIZbkc4JPUL5CVArUVL0ntnAOSA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaGV31GvU.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaEF31GvU.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaG131GvU.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaGl31GvU.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaFF31.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Strait';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/strait/v19/DtViJxy6WaEr1LZDcTJsol0.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Strait';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/strait/v19/DtViJxy6WaEr1LZDfzJs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style><style type="text/css"> #wsb-element-fd5b3156-5e4b-41fc-ae40-7e6234e4c1b8{top:0px;left:0px;position:absolute;z-index:79}#wsb-element-fd5b3156-5e4b-41fc-ae40-7e6234e4c1b8 .wsb-image-inner{padding:0px}#wsb-element-fd5b3156-5e4b-41fc-ae40-7e6234e4c1b8 .wsb-image-inner div{width:1px;height:1px;position:relative;overflow:hidden}#wsb-element-fd5b3156-5e4b-41fc-ae40-7e6234e4c1b8 img{position:absolute}#wsb-element-f4ff8f6f-ef42-4725-8b93-dfc3df11c26d{top:8225px;left:382px;position:absolute;z-index:16}#wsb-element-f4ff8f6f-ef42-4725-8b93-dfc3df11c26d .txt{width:524px;height:32px}#wsb-element-f38a02b8-a771-4d46-9626-2f2f3db9bde3{top:-1032px;left:-467px;position:absolute;z-index:473}#wsb-element-f38a02b8-a771-4d46-9626-2f2f3db9bde3{width:1288px;height:40px}#wsb-element-715e8940-69b8-4df5-8dc6-f936b555c18e{top:-222px;left:32px;position:absolute;z-index:475}#wsb-element-715e8940-69b8-4df5-8dc6-f936b555c18e{width:600px;height:40px}#wsb-element-2a48124b-25b1-4dae-b6b2-3cba32528b40{top:64px;left:408px;position:absolute;z-index:15}#wsb-element-2a48124b-25b1-4dae-b6b2-3cba32528b40 .wsb-image-inner{}#wsb-element-2a48124b-25b1-4dae-b6b2-3cba32528b40 .wsb-image-inner div{width:98px;height:35px;position:relative;overflow:hidden}#wsb-element-2a48124b-25b1-4dae-b6b2-3cba32528b40 img{position:absolute}#wsb-element-e8498d10-82c3-4c53-8bbb-c30909402682{top:143.5px;left:830px;position:absolute;z-index:494}#wsb-element-e8498d10-82c3-4c53-8bbb-c30909402682 .txt{width:286px;height:389px}#wsb-element-c6f4b7b6-c498-49b8-a5b8-907c0e49a7a0{top:795px;left:49.94px;position:absolute;z-index:473}#wsb-element-c6f4b7b6-c498-49b8-a5b8-907c0e49a7a0 .txt{width:979px;height:1034px}#wsb-element-c4cae9fc-6dfb-4356-832a-0411da8ac4f6{top:143.5px;left:-82px;position:absolute;z-index:145}#wsb-element-c4cae9fc-6dfb-4356-832a-0411da8ac4f6 .wsb-shape{width:862px;height:372px;border:solid 4px blue;-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;border-radius:5px;padding:0px;background:transparent;box-sizing:content-box;-moz-box-sizing:content-box}#wsb-element-a784f15a-c09a-457c-a11d-4eb879fe2784{top:194px;left:-66px;position:absolute;z-index:434}#wsb-element-a784f15a-c09a-457c-a11d-4eb879fe2784 .wsb-image-inner{}#wsb-element-a784f15a-c09a-457c-a11d-4eb879fe2784 .wsb-image-inner div{width:446.44px;height:261px;position:relative;overflow:hidden}#wsb-element-a784f15a-c09a-457c-a11d-4eb879fe2784 img{position:absolute}#wsb-element-a6a4f5ec-2d92-4a6c-944c-ad583a8430c6{top:2794px;left:13px;position:absolute;z-index:483}#wsb-element-a6a4f5ec-2d92-4a6c-944c-ad583a8430c6 .txt{width:529px;height:324px}#wsb-element-9768c4eb-5041-4d6c-886c-a383c9591ad4{top:790px;left:35px;position:absolute;z-index:475}#wsb-element-9768c4eb-5041-4d6c-886c-a383c9591ad4 .txt{width:982px;height:76px}#wsb-element-95269bf9-bb5e-4502-a598-f193c8debddd{top:1874px;left:14px;position:absolute;z-index:479}#wsb-element-95269bf9-bb5e-4502-a598-f193c8debddd .txt{width:998px;height:1948px}#wsb-element-93269850-8137-4d62-a69f-25f8dccd7324{top:3350px;left:16px;position:absolute;z-index:489}#wsb-element-93269850-8137-4d62-a69f-25f8dccd7324 .txt{width:993px;height:162px}#wsb-element-7623fa14-c077-48be-8fc8-0d8a1b28b2bc{top:1318px;left:282px;position:absolute;z-index:477}#wsb-element-7623fa14-c077-48be-8fc8-0d8a1b28b2bc .txt{width:742px;height:292px}#wsb-element-74544629-877a-4532-b5db-406abb5fa0e6{top:157px;left:408px;position:absolute;z-index:146}#wsb-element-74544629-877a-4532-b5db-406abb5fa0e6 .txt{width:357px;height:324px}#wsb-element-6d935c43-d924-4e06-9bfe-c8a3da31e291{top:598px;left:109px;position:absolute;z-index:493}#wsb-element-6d935c43-d924-4e06-9bfe-c8a3da31e291 .txt{border:solid 4px blue;padding:0px;width:888px;height:111px}#wsb-element-64526f7b-c96a-441b-af68-3772bbb8e4d8{top:2778px;left:573px;position:absolute;z-index:486}#wsb-element-64526f7b-c96a-441b-af68-3772bbb8e4d8 .wsb-image-inner{}#wsb-element-64526f7b-c96a-441b-af68-3772bbb8e4d8 .wsb-image-inner div{width:424px;height:283px;position:relative;overflow:hidden}#wsb-element-64526f7b-c96a-441b-af68-3772bbb8e4d8 img{position:absolute}#wsb-element-63c712e8-32a2-4680-890e-c13bc1d23a71{top:4729px;left:464px;position:absolute;z-index:552}#wsb-element-63c712e8-32a2-4680-890e-c13bc1d23a71 .wsb-htmlsnippet-element{width:127px;height:100px;overflow:hidden;margin:auto}#wsb-element-5e02a27d-6106-418e-83f0-baa95e14d81b{top:-152.05px;left:669.97px;position:absolute;z-index:142}#wsb-element-5e02a27d-6106-418e-83f0-baa95e14d81b .txt{width:362px;height:219px}#wsb-element-5a46bb1d-fcfe-448a-a23e-bdf659c8709d{top:-79px;left:61px;position:absolute;z-index:141}#wsb-element-5a46bb1d-fcfe-448a-a23e-bdf659c8709d .txt{border:solid 4px transparent;padding:0px;width:552px;height:158px}#wsb-element-4a8679f6-0d31-40cd-9f52-fba09ac2d579{top:120px;left:-95px;position:absolute;z-index:144}#wsb-element-4a8679f6-0d31-40cd-9f52-fba09ac2d579 .wsb-line-element{width:1234px;height:20px}#wsb-element-3e8f245a-7db2-4c59-bf44-9fe3db996af0{top:1335px;left:41px;position:absolute;z-index:476}#wsb-element-3e8f245a-7db2-4c59-bf44-9fe3db996af0 .wsb-image-inner{}#wsb-element-3e8f245a-7db2-4c59-bf44-9fe3db996af0 .wsb-image-inner div{width:228px;height:237px;position:relative;overflow:hidden}#wsb-element-3e8f245a-7db2-4c59-bf44-9fe3db996af0 img{position:absolute}#wsb-element-3b70094c-6661-4f23-92cc-c55626ba2a3b{top:3837px;left:134px;position:absolute;z-index:492}#wsb-element-3b70094c-6661-4f23-92cc-c55626ba2a3b .wsb-image-inner{}#wsb-element-3b70094c-6661-4f23-92cc-c55626ba2a3b .wsb-image-inner div{width:802px;height:493px;position:relative;overflow:hidden}#wsb-element-3b70094c-6661-4f23-92cc-c55626ba2a3b img{position:absolute}#wsb-element-157ddd42-4ce5-4a58-bf68-115828175081{top:1953px;left:-3.06px;position:absolute;z-index:482}#wsb-element-157ddd42-4ce5-4a58-bf68-115828175081 .wsb-shape{width:1032px;height:1851px;border:solid 4px blue;-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;border-radius:5px;padding:0px;background:transparent;box-sizing:content-box;-moz-box-sizing:content-box}#wsb-element-13c185ed-88c8-4e0d-a7ff-e5b020556bda{top:113px;left:-95px;position:absolute;z-index:411}#wsb-element-13c185ed-88c8-4e0d-a7ff-e5b020556bda .wsb-line-element{width:1234px;height:20px} </style><div class="wsb-canvas body"><div class="wsb-canvas-page-container" style="min-height: 100%; padding-top: 280px; position: relative;"><div class="wsb-canvas-scrollable" style="background-color: #ffffff; background-position-x: center; background-position-y: center; background-position: center center; background-repeat: repeat; position: absolute; width: 100%; height: 100%;"></div><div id="wsb-canvas-template-page" class="wsb-canvas-page page" style="height: 11027px; margin: auto; width: 1073px; background-color: #ffffff; position: relative; "><div id="wsb-canvas-template-container" style="position: absolute;"> <div id="wsb-element-fd5b3156-5e4b-41fc-ae40-7e6234e4c1b8" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/632c84aaf67556a10d82ed59fc78f3bb?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:1px;height:1px;"></div></div> </div><div id="wsb-element-f4ff8f6f-ef42-4725-8b93-dfc3df11c26d" class="wsb-element-text" data-type="element"> <div class="txt "><p><span class="editor_footer"><font face="Ropa Sans, serif" size="3"><span style="line-height: 16px;">Copyright @&nbsp;Mexico Historical Society.&nbsp;All rights reserved.</span></font></span></p></div> </div><div id="wsb-element-f38a02b8-a771-4d46-9626-2f2f3db9bde3" class="wsb-element-navigation" data-type="element"> <script type="text/javascript"> require(['designer/app/builder/ui/canvas/elements/navigation/subNavigation'], function (subnav) { subnav.initialize(); }); </script><div style="width: 1288px; height: 40px;" class="wsb-nav nav_simple nav-text-center nav-horizontal nav-btn-stretch wsb-navigation-rendered-top-level-container" id="wsb-nav-f38a02b8-a771-4d46-9626-2f2f3db9bde3"><style> #wsb-nav-f38a02b8-a771-4d46-9626-2f2f3db9bde3.wsb-navigation-rendered-top-level-container ul > li:hover, #wsb-nav-f38a02b8-a771-4d46-9626-2f2f3db9bde3.wsb-navigation-rendered-top-level-container ul > li:hover > a, #wsb-nav-f38a02b8-a771-4d46-9626-2f2f3db9bde3.wsb-navigation-rendered-top-level-container ul > li.active:hover, #wsb-nav-f38a02b8-a771-4d46-9626-2f2f3db9bde3.wsb-navigation-rendered-top-level-container ul > li.active > a:hover, #wsb-nav-f38a02b8-a771-4d46-9626-2f2f3db9bde3.wsb-navigation-rendered-top-level-container ul > li.active .nav-subnav li:hover, #wsb-nav-f38a02b8-a771-4d46-9626-2f2f3db9bde3.wsb-navigation-rendered-top-level-container ul > li.active .nav-subnav li:hover > a {background-color: !important;color: !important;} </style><ul class="wsb-navigation-rendered-top-level-menu "><li style="width: 6.66666666666667%"><a href="home.html" target="" data-title="Home" data-pageid="0545628b-7ecc-4f16-a0c5-9cdb260847b9" data-url="home.html">Home</a></li><li style="width: 6.66666666666667%" class="has-children"><a href="museum.html" target="" data-title="Museum" data-pageid="4ad4ce99-ea82-4d9b-b321-8714851cc4bd" data-url="museum.html">Museum</a><ul class="wsb-navigation-rendered-top-level-menu nav-subnav"><li><a href="tin-shop.html" target="" data-title="Tin Shop" data-pageid="624166b0-b2a6-4072-8d64-95c6f8750a13" data-url="tin-shop.html">Tin Shop</a></li><li><a href="chandler-bank.html" target="" data-title="Chandler Bank" data-pageid="9aef6cde-f612-4d04-9663-abb6f24cd913" data-url="chandler-bank.html">Chandler Bank</a></li></ul></li><li style="width: 6.66666666666667%" class="has-children"><a href="mexico-history.html" target="" data-title="Mexico History" data-pageid="61f8b269-8f32-42fa-84b5-f058d45e220a" data-url="mexico-history.html">Mexico History</a><ul class="wsb-navigation-rendered-top-level-menu nav-subnav"><li class="has-children"><a href="our-hamlets.html" target="" data-title="Our Hamlets" data-pageid="d6471306-8788-4a06-9cb7-7ff7a3674dcd" data-url="our-hamlets.html">Our Hamlets</a><ul class="wsb-navigation-rendered-top-level-menu nav-subnav"><li><a href="arthur.html" target="" data-title="Arthur" data-pageid="1c8b81f6-1b5d-4112-89ff-ad6f5c760681" data-url="arthur.html">Arthur</a></li><li><a href="colosse.html" target="" data-title="Colosse" data-pageid="678c42bc-19f0-45d4-bb1f-4bbd0fab842f" data-url="colosse.html">Colosse</a></li><li><a href="dewey-s-corners.html" target="" data-title="Dewey&#39;s Corners" data-pageid="3d013b36-2b58-4c21-8ae8-3b6745824cee" data-url="dewey-s-corners.html">Dewey&#39;s Corners</a></li><li><a href="french-street.html" target="" data-title="French Street" data-pageid="c670091a-6b86-4fe2-a915-9808ba3421a7" data-url="french-street.html">French Street</a></li><li><a href="fort-leaser.html" target="" data-title="Fort Leaser" data-pageid="0b064781-7f30-43ed-9f5f-df9a43c2d7f2" data-url="fort-leaser.html">Fort Leaser</a></li><li><a href="grafton-square.html" target="" data-title="Grafton Square" data-pageid="7fa38132-d65d-45ef-912f-8ab5fc602da9" data-url="grafton-square.html">Grafton Square</a></li><li><a href="lamb-s-corners.html" target="" data-title="Lamb&#39;s Corners" data-pageid="452f3d90-a067-462e-972b-074d1d103a3e" data-url="lamb-s-corners.html">Lamb&#39;s Corners</a></li><li class="active"><a href="maple-view.html" target="" data-title="Maple View" data-pageid="9b09547b-c0f2-4cab-a90d-d5d2f95bccd1" data-url="maple-view.html">Maple View</a></li><li><a href="prattham.html" target="" data-title="Prattham" data-pageid="ff90c9e2-60cd-44c2-b7eb-7aaa9cebb73c" data-url="prattham.html">Prattham</a></li><li><a href="north-mexico.html" target="" data-title="North Mexico" data-pageid="5aa45b92-4b42-45e0-bc6d-8b096a599e9d" data-url="north-mexico.html">North Mexico</a></li><li><a href="other-little-centers.html" target="" data-title="Other Little Centers" data-pageid="ff716359-22f7-4a08-94ff-c455eeda98a3" data-url="other-little-centers.html">Other Little Centers</a></li><li><a href="quaker-mills.html" target="" data-title="Quaker Mills" data-pageid="d3744282-508a-4dfa-b21c-0de1c5ec2ecd" data-url="quaker-mills.html">Quaker Mills</a></li><li><a href="red-mills.html" target="" data-title="Red Mills" data-pageid="eb913b42-70f8-4c96-ab7b-b3c4c0d0f7bf" data-url="red-mills.html">Red Mills</a></li><li><a href="texas.html" target="" data-title="Texas" data-pageid="16262149-bfc0-45df-970e-2374d9932c3a" data-url="texas.html">Texas</a></li><li><a href="wellwood.html" target="" data-title="Wellwood" data-pageid="fef298cb-5ecf-43f9-ab7e-af28dceeffe4" data-url="wellwood.html">Wellwood</a></li></ul></li></ul></li><li style="width: 6.66666666666667%"><a href="mexico-historical-society-1.html" target="" data-title="Village of Mexico" data-pageid="00000000-0000-0000-0000-000002736274" data-url="mexico-historical-society-1.html">Village of Mexico</a></li><li style="width: 6.66666666666667%"><a href="events.html" target="" data-title="Events" data-pageid="5a3c09ad-8158-4c99-9fe4-2b02e44cf892" data-url="events.html">Events</a></li><li style="width: 6.66666666666667%"><a href="membership.html" target="" data-title="Membership" data-pageid="ea3a2c48-8835-4548-8415-ca24050c90f8" data-url="membership.html">Membership</a></li><li style="width: 6.66666666666667%"><a href="publications.html" target="" data-title="Publications" data-pageid="7ddbef39-50de-427b-a49f-52f6417ea0f7" data-url="publications.html">Publications</a></li><li style="width: 6.66666666666667%"><a href="photo-gallery.html" target="" data-title="Photo Gallery" data-pageid="de23dcb1-61bd-428e-b8b8-e4aabf0cfd8e" data-url="photo-gallery.html">Photo Gallery</a></li><li style="width: 6.66666666666667%"><a href="links.html" target="" data-title="Links" data-pageid="1a0bfd12-5c30-4d07-a4fa-a3578fad5dcb" data-url="links.html">Links</a></li><li style="width: 6.66666666666667%"><a href="contact.html" target="" data-title="Contact" data-pageid="00000000-0000-0000-0000-000002743752" data-url="contact.html">Contact</a></li><li style="width: 6.66666666666667%"><a href="the-great-calamity-of-1799.html" target="" data-title="The Great Calamity of 1799" data-pageid="63e4badb-394e-4d8c-b9e3-b75809cbc982" data-url="the-great-calamity-of-1799.html">The Great Calamity of 1799</a></li><li style="width: 6.66666666666667%"><a href="first-families-village.html" target="" data-title="First Families Village" data-pageid="f56b907a-5a3e-4f4c-872e-30995133854a" data-url="first-families-village.html">First Families Village</a></li><li style="width: 6.66666666666667%"><a href="mother-of-towns.html" target="" data-title="Mother of Towns" data-pageid="3c868b62-27f6-47e7-9456-c012c7229341" data-url="mother-of-towns.html">Mother of Towns</a></li><li style="width: 6.66666666666667%"><a href="schools.html" target="" data-title="Schools" data-pageid="021460dd-c657-4778-ae25-56308dda1889" data-url="schools.html">Schools</a></li><li style="width: 6.66666666666667%"><a href="memorial-day-1918.html" target="" data-title="Memorial Day 1918" data-pageid="269651b5-ccfc-447a-8853-0cc1e69cf6e8" data-url="memorial-day-1918.html">Memorial Day 1918</a></li></ul></div> </div><div id="wsb-element-715e8940-69b8-4df5-8dc6-f936b555c18e" class="wsb-element-navigation" data-type="element"> <script type="text/javascript"> require(['designer/app/builder/ui/canvas/elements/navigation/subNavigation'], function (subnav) { subnav.initialize(); }); </script><div style="width: 600px; height: 40px;" class="wsb-nav nav_simple nav-text-center nav-horizontal nav-btn-stretch wsb-navigation-rendered-top-level-container" id="wsb-nav-715e8940-69b8-4df5-8dc6-f936b555c18e"><style> #wsb-nav-715e8940-69b8-4df5-8dc6-f936b555c18e.wsb-navigation-rendered-top-level-container ul > li:hover, #wsb-nav-715e8940-69b8-4df5-8dc6-f936b555c18e.wsb-navigation-rendered-top-level-container ul > li:hover > a, #wsb-nav-715e8940-69b8-4df5-8dc6-f936b555c18e.wsb-navigation-rendered-top-level-container ul > li.active:hover, #wsb-nav-715e8940-69b8-4df5-8dc6-f936b555c18e.wsb-navigation-rendered-top-level-container ul > li.active > a:hover, #wsb-nav-715e8940-69b8-4df5-8dc6-f936b555c18e.wsb-navigation-rendered-top-level-container ul > li.active .nav-subnav li:hover, #wsb-nav-715e8940-69b8-4df5-8dc6-f936b555c18e.wsb-navigation-rendered-top-level-container ul > li.active .nav-subnav li:hover > a {background-color: !important;color: !important;} </style><ul class="wsb-navigation-rendered-top-level-menu "><li style="width: 9.09090909090909%"><a href="home.html" target="" data-title="Home" data-pageid="0545628b-7ecc-4f16-a0c5-9cdb260847b9" data-url="home.html">Home</a></li><li style="width: 9.09090909090909%" class="has-children"><a href="mexico-history.html" target="" data-title="Mexico History" data-pageid="61f8b269-8f32-42fa-84b5-f058d45e220a" data-url="mexico-history.html">Mexico History</a><ul class="wsb-navigation-rendered-top-level-menu nav-subnav"><li><a href="mother-of-towns.html" target="" data-title="Mother of Towns" data-pageid="3c868b62-27f6-47e7-9456-c012c7229341" data-url="mother-of-towns.html">Mother of Towns</a></li><li><a href="memorial-day-1918.html" target="" data-title="Memorial Day 1918" data-pageid="269651b5-ccfc-447a-8853-0cc1e69cf6e8" data-url="memorial-day-1918.html">Memorial Day 1918</a></li><li><a href="schools.html" target="" data-title="Schools" data-pageid="021460dd-c657-4778-ae25-56308dda1889" data-url="schools.html">Schools</a></li></ul></li><li style="width: 9.09090909090909%" class="has-children"><a href="our-hamlets.html" target="" data-title="Our Hamlets" data-pageid="d6471306-8788-4a06-9cb7-7ff7a3674dcd" data-url="our-hamlets.html">Our Hamlets</a><ul class="wsb-navigation-rendered-top-level-menu nav-subnav"><li><a href="arthur.html" target="" data-title="Arthur" data-pageid="1c8b81f6-1b5d-4112-89ff-ad6f5c760681" data-url="arthur.html">Arthur</a></li><li><a href="dewey-s-corners.html" target="" data-title="Dewey&#39;s Corners" data-pageid="3d013b36-2b58-4c21-8ae8-3b6745824cee" data-url="dewey-s-corners.html">Dewey&#39;s Corners</a></li><li><a href="fort-leaser.html" target="" data-title="Fort Leaser" data-pageid="0b064781-7f30-43ed-9f5f-df9a43c2d7f2" data-url="fort-leaser.html">Fort Leaser</a></li><li><a href="french-street.html" target="" data-title="French Street" data-pageid="c670091a-6b86-4fe2-a915-9808ba3421a7" data-url="french-street.html">French Street</a></li><li><a href="grafton-square.html" target="" data-title="Grafton Square" data-pageid="7fa38132-d65d-45ef-912f-8ab5fc602da9" data-url="grafton-square.html">Grafton Square</a></li><li><a href="lamb-s-corners.html" target="" data-title="Lamb&#39;s Corners" data-pageid="452f3d90-a067-462e-972b-074d1d103a3e" data-url="lamb-s-corners.html">Lamb&#39;s Corners</a></li><li class="active"><a href="maple-view.html" target="" data-title="Maple View" data-pageid="9b09547b-c0f2-4cab-a90d-d5d2f95bccd1" data-url="maple-view.html">Maple View</a></li><li><a href="north-mexico.html" target="" data-title="North Mexico" data-pageid="5aa45b92-4b42-45e0-bc6d-8b096a599e9d" data-url="north-mexico.html">North Mexico</a></li><li><a href="prattham.html" target="" data-title="Prattham" data-pageid="ff90c9e2-60cd-44c2-b7eb-7aaa9cebb73c" data-url="prattham.html">Prattham</a></li><li><a href="quaker-mills.html" target="" data-title="Quaker Mills" data-pageid="d3744282-508a-4dfa-b21c-0de1c5ec2ecd" data-url="quaker-mills.html">Quaker Mills</a></li><li><a href="wellwood.html" target="" data-title="Wellwood" data-pageid="fef298cb-5ecf-43f9-ab7e-af28dceeffe4" data-url="wellwood.html">Wellwood</a></li><li class="has-children"><a href="vera-cruz.html" target="" data-title="Vera Cruz" data-pageid="3a747f50-a35b-4c80-b7ad-11bc31bff677" data-url="vera-cruz.html">Vera Cruz</a><ul class="wsb-navigation-rendered-top-level-menu nav-subnav"><li><a href="the-great-calamity-of-1799.html" target="" data-title="The Great Calamity of 1799" data-pageid="63e4badb-394e-4d8c-b9e3-b75809cbc982" data-url="the-great-calamity-of-1799.html">The Great Calamity of 1799</a></li></ul></li></ul></li><li style="width: 9.09090909090909%" class="has-children"><a href="mexico-historical-society-1.html" target="" data-title="Village of Mexico" data-pageid="00000000-0000-0000-0000-000002736274" data-url="mexico-historical-society-1.html">Village of Mexico</a><ul class="wsb-navigation-rendered-top-level-menu nav-subnav"><li><a href="first-families-village.html" target="" data-title="First Families Village" data-pageid="f56b907a-5a3e-4f4c-872e-30995133854a" data-url="first-families-village.html">First Families Village</a></li></ul></li><li style="width: 9.09090909090909%" class="has-children"><a href="museum.html" target="" data-title="Museum" data-pageid="4ad4ce99-ea82-4d9b-b321-8714851cc4bd" data-url="museum.html">Museum</a><ul class="wsb-navigation-rendered-top-level-menu nav-subnav"><li><a href="tin-shop.html" target="" data-title="Tin Shop" data-pageid="624166b0-b2a6-4072-8d64-95c6f8750a13" data-url="tin-shop.html">Tin Shop</a></li><li><a href="chandler-bank.html" target="" data-title="Chandler Bank" data-pageid="9aef6cde-f612-4d04-9663-abb6f24cd913" data-url="chandler-bank.html">Chandler Bank</a></li></ul></li><li style="width: 9.09090909090909%"><a href="events.html" target="" data-title="Events" data-pageid="5a3c09ad-8158-4c99-9fe4-2b02e44cf892" data-url="events.html">Events</a></li><li style="width: 9.09090909090909%"><a href="publications.html" target="" data-title="Publications" data-pageid="7ddbef39-50de-427b-a49f-52f6417ea0f7" data-url="publications.html">Publications</a></li><li style="width: 9.09090909090909%"><a href="photo-gallery.html" target="" data-title="Photo Gallery" data-pageid="de23dcb1-61bd-428e-b8b8-e4aabf0cfd8e" data-url="photo-gallery.html">Photo Gallery</a></li><li style="width: 9.09090909090909%"><a href="membership.html" target="" data-title="Membership" data-pageid="ea3a2c48-8835-4548-8415-ca24050c90f8" data-url="membership.html">Membership</a></li><li style="width: 9.09090909090909%"><a href="contact.html" target="" data-title="Contact" data-pageid="00000000-0000-0000-0000-000002743752" data-url="contact.html">Contact</a></li><li style="width: 9.09090909090909%"><a href="links.html" target="" data-title="Links" data-pageid="1a0bfd12-5c30-4d07-a4fa-a3578fad5dcb" data-url="links.html">Links</a></li></ul></div> </div><div id="wsb-element-e8498d10-82c3-4c53-8bbb-c30909402682" class="wsb-element-text" data-type="element"> <div class="txt "><p style="text-align: justify;">&nbsp;<strong>A post office was established at Union Square on December 8, 1823 with Avery Skinner as postmaster. He is credited with being the founder of Union Square.&nbsp; The name was changed to Maple View on February 9, 1907 when Erwin E. Parsons became postmaster.&nbsp; The post office, located in a trailer,&nbsp; was closed on May 14, 1990. The last postmaster was Terry Howell.&nbsp;</strong></p></div> </div><div id="wsb-element-c6f4b7b6-c498-49b8-a5b8-907c0e49a7a0" class="wsb-element-text" data-type="element"> <div class="txt "><p style="text-align: justify;"><br><br>&nbsp;<br></p><p>&nbsp; &nbsp;Union Square (Maple View after 1907) was once an important crossroads of two main thoroughfares - what is now Route 104 from Oswego to Rome east and west and today’s Route 11 north and south, then known as the “Old Salt Road.”<br>&nbsp;&nbsp; &nbsp;Center of activity and then facing east was a tavern on the northwest corner, the first proprietor being Robert Kelly who was succeeded by his father-in-law, John B. Davis.<br>&nbsp; &nbsp; &nbsp;This hostelry was also the change station for the daily stages. What a thrilling sight it was to see the four horse teams dashing by, the states swaying to and fro, accompanied y the sound of 16 shot hoofs pounding on the paved surface of the road.<br>&nbsp; &nbsp; The term, the old Salt Road, was in as common use then as Route 11 is today. Large caravans came from the northern counties for their supply of salt from Syracuse. Also traveling the roads were stagecoaches which fascinated the boys such as Ebenezer H. Virgil.&nbsp;&nbsp; After a brief stop the stage sprang away, Virgil, exclaimed: “It’s settled. I’m going to be a stage driver.”&nbsp; From that moment the boy’s ambition focused on attaining a knowledge of stage driving and the handling of horses. He was not interested in farming.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br>&nbsp; &nbsp; <br></p><p>One of Sherwood’s rules was one requiring a frequent change of drivers from one route to another.&nbsp; The reason for this rotation was to prevent drivers from forming too many acquaintances, especially at layover places.&nbsp; In 1830 he temporarily relinquished stage driving to become a clerk for the Thorpe &amp; Sprague stagecoach concern in Albany.<br>&nbsp; &nbsp; After working both as a clerk and a driver, in 1841 he developed an express business between Albany and Montreal which&nbsp; led to the founding of the National Express Company.&nbsp; He died December 4, 1892 at his home in Troy.</p></div> </div><div id="wsb-element-c4cae9fc-6dfb-4356-832a-0411da8ac4f6" class="wsb-element-shape" data-type="element"> <div class="wsb-shape shape customStyle "></div> </div><div id="wsb-element-a784f15a-c09a-457c-a11d-4eb879fe2784" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/876078fabaf7847599d41abd9e986266?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:446px;height:261px;"></div></div> </div><div id="wsb-element-a6a4f5ec-2d92-4a6c-944c-ad583a8430c6" class="wsb-element-text" data-type="element"> <div class="txt "><p style="text-align: justify;">&nbsp; &nbsp; The Union Square Tavern was more important than most of its kind because of the junction of three heavily traveled highways, and it was there that many passengers topped over night rather than on to Oswego. Then, too, it was about the half-way stop between Watertown and Syracuse and in autumn could not accommodate the guests who stopped there nightly.</p><p style="text-align: justify;">&nbsp; &nbsp; It’s a comparatively simple matter today to walk walk into a store and purchase a sack of salt for five cents or less, but in&nbsp; those days salt was a scarce and valuable commodity<br></p></div> </div><div id="wsb-element-9768c4eb-5041-4d6c-886c-a383c9591ad4" class="wsb-element-text" data-type="element"> <div class="txt "><p style="text-align: center;"><strong><span style="font-size:24px;">Maple View - A&nbsp; Crossroads Community</span></strong><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;By Richard Palmer</p></div> </div><div id="wsb-element-95269bf9-bb5e-4502-a598-f193c8debddd" class="wsb-element-text" data-type="element"> <div class="txt "><p style="text-align: center;"><strong><span style="font-size:24px;">&nbsp;Maple View</span></strong><br></p><p style="text-align: center;">appeared in the Pulaski Democrat on November 6, 1912.<br></p><p style="text-align: justify;"><br></p><p style="text-align: justify;"><br></p><p style="text-align: justify;">&nbsp; &nbsp; With the opening of the Union Square Pulaski State Highway, or at least that portion with is completed, and the consequent addition of passing tours has been attracted to the famous old Union Square Tavern, which stands in the hamlet of that name a few miles east of the village of Mexico.<br>&nbsp; &nbsp; The tavern is one of the last of the chain of hostelries which flourished in the days when travel overland was by mail coach and when&nbsp; Oswego was on the route of western immigration.&nbsp; To look at the quaint old-fashioned frame building, there is nothing in in its appearance or its surroundings&nbsp; to suggest that at one time in the history of the county it was the center of activity and knew business such as no modern hotel can ever hope to to attain.<br>&nbsp; &nbsp; In the weather beaten and creaking sign board swinging in the wind on rusted supports there is no suggestion of the number of travelers who passed beneath it in the days of the prosperity of the hotel and the sign today is the only intimation that the tavern is not an unusually large farm house.<br>&nbsp; &nbsp; Before the days of railroads and when the middle west was being settled travel was solely by stagecoach or by packet canal boat and steamer on the river and lakes and&nbsp; and the most direct route from the east to west was across the Stage from Rome, through Union Square, the junction of three trunk line routes to Oswego, whence streamers went westward on the lakes. It was in these days that the tavern flourished and in its time there was no better or more favorably known hotel in the country.<br>&nbsp; &nbsp; It was kept by Judge Avery Skinner, father of Attorney Timothy W. Skinner now living at an advanced age in the village of Mexico. The highway from Rome to Union Square was planked and the stages made some remarkably fast trips. Relays of six horses were used the first stop&nbsp; being at New Haven, where another tavern was located. Changes of horses with made with rapidity of modern fire department teams and every effort&nbsp; was made to waste as little and make as much time as possible.<br>&nbsp; &nbsp; The passage of the stage coach was more of an event in those days than the advent of a presidential candidate and when it thundered along the planked highway, with&nbsp; horses on the run and coach swaying an swinging from side to side with passengers hanging on with hands and teeth, the sight was more inspiring and full of action than the Twentieth Century Limited making its best time.<br>&nbsp; &nbsp;<br></p><p style="text-align: justify;"><br></p><p style="text-align: justify;"><br></p><p style="text-align: justify;"><br></p><p style="text-align: justify;"><br></p><p style="text-align: justify;"><br></p><p style="text-align: justify;"><br></p><p style="text-align: justify;"><br></p><p style="text-align: justify;"><br></p><p style="text-align: justify;"><br></p><p style="text-align: justify;">which cost time and money. Syracuse was the salt center and farmers throughout the North Country in the vicinity of Watertown, when the fall work was done, would drive from their farms to Syracuse and return with a year’s supply of the seasoning.<br>&nbsp; &nbsp; In that time of the year the tavern knew its busiest times, according to Mr. Skinner, who remembers well in the days of his youth about the old hotel. One night three hundred teams stopped there and hundreds of men spent the night on the ground in the tavern yard grouped around huge wood fires, while the night was noisy with the sound of stamping and moving horses.<br></p><p style="text-align: justify;"><br></p><p style="text-align: justify;"><br></p><p style="text-align: justify;"><br></p><p style="text-align: justify;"><br></p><p style="text-align: justify;"><br></p><p style="text-align: justify;">Today to eke out a living in connection with the hotel, and until the construction of the highway&nbsp;brought a few boarders, the farm received more attention than the hotel.&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>&nbsp; &nbsp; A portion of the Skinner Tavern was cut off, and the building moved to face south and State Route 104.&nbsp; It became the home of the Newton family, and is presently occupied by Frank Newton, and for the summer months, his mother Barbara Newton joins him.&nbsp; The inn was replaced on the corner by a gas station.<br>&nbsp;&nbsp;&nbsp; &nbsp;In the mid 1900s what was then known was he old Union Square House was purchased and remodeled by Frank E. Hotchkiss who at the time was in the real estate business. Known as the Hotel Hotchkiss, it prospered, mostly catering to travelers. His motto was was “Mother Does the Cooking.” He was referring to his wife, Hattie.&nbsp; He died on November 7, 1924.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br></p></div> </div><div id="wsb-element-93269850-8137-4d62-a69f-25f8dccd7324" class="wsb-element-text" data-type="element"> <div class="txt "><p style="text-align: justify;">But the construction of railways and the bettering of market facilities did away with the necessity for traveling hundreds of miles for salt and with the success of the first steam railroad assured, one by one the old taverns passed away through lack of business, and the Union Square hotel is one of the few in the State which remained and which as continued to do business.<br>&nbsp; &nbsp;&nbsp;</p></div> </div><div id="wsb-element-7623fa14-c077-48be-8fc8-0d8a1b28b2bc" class="wsb-element-text" data-type="element"> <div class="txt "><p>&nbsp;Virgil was born in Egremont, Berkshire County, Massachusetts on&nbsp; September 26, 1808 and in 1810 moved with his parents, Abram&nbsp; and Laura Virgil,&nbsp; to Fabius. In 1820 they moved to Union Square. But&nbsp; farming was not for him.&nbsp; He apprenticed to an experienced stage&nbsp;&nbsp; driver and it wasn’t long before Ebenezer became an expert with the reins.<br>&nbsp; &nbsp; In 1827 he went to Auburn and got a job as a driver for Colonel John M. Sherwood, the famous stagecoach proprietor. Sherwood was impressed with the young man he immediately hired him as a driver&nbsp; on the route between Auburn and Geneva where he remained for a year.</p></div> </div><div id="wsb-element-74544629-877a-4532-b5db-406abb5fa0e6" class="wsb-element-text" data-type="element"> <div class="txt "><p style="text-align: justify;"><span style="font-size:20px;"><span style="color:#000080;"><strong>Situated at the crossing&nbsp;of two important highways, the Syracuse and Watertown, now Route 11, and the Oswego-Rome, now number 104, Union Square the present Maple View, belonged to Richland, the 21st town of Scriba's Patent, until 1817 when it was transferred with the surrounding triangle to Mexico.</strong></span></span></p></div> </div><div id="wsb-element-6d935c43-d924-4e06-9bfe-c8a3da31e291" class="wsb-element-text" data-type="element"> <div class="txt "><p style="text-align: center;"><span style="font-size:24px;">Interesting&nbsp;Links</span><br></p><p style="text-align: center;"><span style="font-size:20px;">Roots Web&nbsp; -&nbsp; <a href="https://sites.rootsweb.com/~nyoswego/towns/newhaven/index.html" target="_blank">https://sites.rootsweb.com/~nyoswego/towns/newhaven/index.html</a><br></span></p><p style="text-align: center;"><br></p></div> </div><div id="wsb-element-64526f7b-c96a-441b-af68-3772bbb8e4d8" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/b8478a1cf0450e9477f96dacc6516501?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:424px;height:283px;"></div></div> </div><div id="wsb-element-63c712e8-32a2-4680-890e-c13bc1d23a71" class="wsb-element-htmlsnippet" data-type="element">
+
+
+
+
+        <div class="wsb-htmlsnippet-element"><a href='https://writingbachelorthesis.com/'>Bachelor Ghostwriter</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=9e61116e8a508489fb192a3df4f4b32414981b49'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1502800/t/2"></script></div>
+</div><div id="wsb-element-5e02a27d-6106-418e-83f0-baa95e14d81b" class="wsb-element-text" data-type="element"> <div class="txt "><p><br></p><p style="text-align: center;"><span style="font-size:56px;"><span style="color:#000080;"><span style="font-family:kaushan script;"><strong>Maple View</strong></span></span></span></p><p style="text-align: center;"><span style="font-size:48px;"><span style="color:#000080;"><span style="font-family:kaushan script;"><strong>Union Square</strong></span></span></span></p></div> </div><div id="wsb-element-5a46bb1d-fcfe-448a-a23e-bdf659c8709d" class="wsb-element-text" data-type="element"> <div class="txt "><p style="text-align: justify;"><em><span style="color:#000080;"><span style="font-size:22px;"></span><span style="font-size:22px;">&nbsp; Even before it had a name, it must have gained considerable importance as a crossroads in view of the travel on its two highways.&nbsp; In 1836 it could boast of 17 dwellings.&nbsp; &nbsp; </span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></em></p></div> </div><div id="wsb-element-4a8679f6-0d31-40cd-9f52-fba09ac2d579" class="wsb-element-line" data-type="element"> <div class="wsb-line-element" style="width: 1234px; height: 20px; width: 1234px;border-top: 6px solid #7f0000;opacity: 1;filter: alpha(opacity=1);"></div> </div><div id="wsb-element-3e8f245a-7db2-4c59-bf44-9fe3db996af0" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/350b6043d3b4d15e24ea256ff18f5778?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:228px;height:237px;"></div></div> </div><div id="wsb-element-3b70094c-6661-4f23-92cc-c55626ba2a3b" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/1359f3ef32aaebc0ed5968cfdfe65986?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:802px;height:493px;"></div></div> </div><div id="wsb-element-157ddd42-4ce5-4a58-bf68-115828175081" class="wsb-element-shape" data-type="element"> <div class="wsb-shape shape customStyle "></div> </div><div id="wsb-element-13c185ed-88c8-4e0d-a7ff-e5b020556bda" class="wsb-element-line" data-type="element"> <div class="wsb-line-element" style="width: 1234px; height: 20px; width: 1234px;border-top: 6px solid #0000ff;opacity: 1;filter: alpha(opacity=1);"></div> </div> </div></div><div id="wsb-canvas-template-footer" class="wsb-canvas-page-footer footer" style="margin: auto; min-height:100px; height: 100px; width: 1073px; position: relative;"><div id="wsb-canvas-template-footer-container" class="footer-container" style="position: absolute"> <div id="wsb-element-2a48124b-25b1-4dae-b6b2-3cba32528b40" class="wsb-element-image" > <div class="wsb-image-inner "><div class="img"><a href="https://www.godaddy.com/websites/website-builder?cvosrc=assets.wsb_badge.wsb_badge" target="_blank" rel=""><img src="https://nebula.wsimg.com/c6c4f64f474b683786684b2f271fa4f7?AccessKeyId=531592D248B589D87A56&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:98px;height:35px;"></a></div></div> </div> </div></div><div class="view-as-mobile" style="padding:10px;position:relative;text-align:center;display:none;"><a href="#" onclick="return false;">View on Mobile</a></div></div></div><script type="text/javascript"> require(['jquery', 'common/cookiemanager/cookiemanager', 'designer/iebackground/iebackground'], function ($, cookieManager, bg) { if (cookieManager.getCookie("WSB.ForceDesktop")) { $('.view-as-mobile', '.wsb-canvas-page-container').show().find('a').bind('click', function () { cookieManager.eraseCookie("WSB.ForceDesktop"); window.location.reload(true); }); } bg.fixBackground(); }); </script><script> "undefined" === typeof _trfq || (window._trfq = []); "undefined" === typeof _trfd && (window._trfd = []), _trfd.push({ "ap": "WSBv7" }); </script><script src="//img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js" async=""></script></body></html> 

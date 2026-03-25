@@ -1,0 +1,574 @@
+ <!DOCTYPE html><html lang="en" dir="ltr" data-tcc-ignore=""><head><title>Photo Gallery</title><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><link rel="stylesheet" type="text/css" href="site.css?v="><script> if (typeof ($sf) === "undefined") { $sf = { baseUrl: "https://img1.wsimg.com/wst/v7/WSB7_J_20251223_0920_orion-cle_6320/v2", skin: "app", preload: 0, require: { jquery: "https://img1.wsimg.com/wst/v7/WSB7_J_20251223_0920_orion-cle_6320/v2/libs/jquery/jq.js", paths: { "wsbcore": "common/wsb/core", "knockout": "libs/knockout/knockout" } } }; } </script><script id="duel" src="//img1.wsimg.com/starfield/duel/v2.5.8/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k"></script><script> define('jquery', ['jq!starfield/jquery.mod'], function(m) { return m; }); define('appconfig', [], { documentDownloadBaseUrl: 'https://nebula.wsimg.com' }); </script><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="Content-Location" content="photo-gallery.html"><meta name="generator" content="Starfield Technologies; Go Daddy Website Builder 7.0.5350"><meta property="og:type" content="website"><meta property="og:title" content="Photo Gallery"><meta property="og:site_name" content="Mexico Historical Society"><meta property="og:url" content="http://www.mexiconyhistoricalsociety.com/photo-gallery.html"><meta property="og:image" content="https://nebula.wsimg.com/d81fe4868572c033bf0a6a8a2f2a2c0c?AccessKeyId=2B092E40C7D4C6D5FCC7&disposition=0&alloworigin=1"></head><body><style data-inline-fonts>/* vietnamese */
+@font-face {
+  font-family: 'Allura';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/allura/v23/9oRPNYsQpS4zjuA_hAgWDto.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Allura';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/allura/v23/9oRPNYsQpS4zjuA_hQgWDto.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Allura';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/allura/v23/9oRPNYsQpS4zjuA_iwgW.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/amaticsc/v28/TUZyzwprpvBS1izr_vOEDuSfQZQ.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/amaticsc/v28/TUZyzwprpvBS1izr_vOECOSfQZQ.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/amaticsc/v28/TUZyzwprpvBS1izr_vOEBeSfQZQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/amaticsc/v28/TUZyzwprpvBS1izr_vOEBOSfQZQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/amaticsc/v28/TUZyzwprpvBS1izr_vOECuSf.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Arizonia';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/arizonia/v23/neIIzCemt4A5qa7mv5WOFqwKUQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Arizonia';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/arizonia/v23/neIIzCemt4A5qa7mv5WPFqwKUQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Arizonia';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/arizonia/v23/neIIzCemt4A5qa7mv5WBFqw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Averia Sans Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/averiasanslibre/v20/ga6XaxZG_G5OvCf_rt7FH3B6BHLMEdVOEoI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/cabinsketch/v23/QGYpz_kZZAGCONcK2A4bGOj8mNhN.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/francoisone/v22/_Xmr-H4zszafZw3A-KPSZut9zgiRi_Y.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/francoisone/v22/_Xmr-H4zszafZw3A-KPSZut9zwiRi_Y.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/francoisone/v22/_Xmr-H4zszafZw3A-KPSZut9wQiR.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Fredericka the Great';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/frederickathegreat/v23/9Bt33CxNwt7aOctW2xjbCstzwVKsIBVV--StxbcVcg.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Fredericka the Great';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/frederickathegreat/v23/9Bt33CxNwt7aOctW2xjbCstzwVKsIBVV--Sjxbc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Jacques Francois Shadow';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/jacquesfrancoisshadow/v27/KR1FBtOz8PKTMk-kqdkLVrvR0ECFrB6Pin-2_p8Suno.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/josefinslab/v29/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W71msR349Kg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/kaushanscript/v19/vm8vdRfvXFLG3OLnsO15WYS5DG72wNJHMw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/kaushanscript/v19/vm8vdRfvXFLG3OLnsO15WYS5DG74wNI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Love Ya Like A Sister';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/loveyalikeasister/v23/R70EjzUBlOqPeouhFDfR80-0FhOqJubN-BeL-3xdgGE.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Love Ya Like A Sister';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/loveyalikeasister/v23/R70EjzUBlOqPeouhFDfR80-0FhOqJubN-BeL9Xxd.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaGV31GvU.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaEF31GvU.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaG131GvU.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaGl31GvU.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaFF31.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Offside';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/offside/v26/HI_KiYMWKa9QrAykc5joR6-d.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Offside';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/offside/v26/HI_KiYMWKa9QrAykc5boRw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVIGxA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4saVIGxA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4jaVIGxA.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4iaVIGxA.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* math */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B5caVIGxA.woff2) format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B5OaVIGxA.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4vaVIGxA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVIGxA.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUtiZTaR.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUJiZTaR.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUliZTaR.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUhiZTaR.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiZQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Over the Rainbow';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/overtherainbow/v23/11haGoXG1k_HKhMLUWz7Mc7vvW5ulvqs9eA2.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Over the Rainbow';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/overtherainbow/v23/11haGoXG1k_HKhMLUWz7Mc7vvW5ulvSs9Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/pacifico/v23/FwZY7-Qmy14u9lezJ-6K6MmTpA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/pacifico/v23/FwZY7-Qmy14u9lezJ-6D6MmTpA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/pacifico/v23/FwZY7-Qmy14u9lezJ-6I6MmTpA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/pacifico/v23/FwZY7-Qmy14u9lezJ-6J6MmTpA.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/pacifico/v23/FwZY7-Qmy14u9lezJ-6H6Mk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Romanesco';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/romanesco/v22/w8gYH2ozQOY7_r_J7mSX1XYKmOo.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Romanesco';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/romanesco/v22/w8gYH2ozQOY7_r_J7mSX23YK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Sacramento';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/sacramento/v17/buEzpo6gcdjy0EiZMBUG4CMf_exL.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Sacramento';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/sacramento/v17/buEzpo6gcdjy0EiZMBUG4C0f_Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Seaweed Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/seaweedscript/v17/bx6cNx6Tne2pxOATYE8C_Rsoe3WA8qY2VQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Seaweed Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/seaweedscript/v17/bx6cNx6Tne2pxOATYE8C_Rsoe3WO8qY.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/specialelite/v20/XLYgIZbkc4JPUL5CVArUVL0ntn4OSEFt.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/specialelite/v20/XLYgIZbkc4JPUL5CVArUVL0ntnAOSA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaGV31GvU.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaEF31GvU.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaG131GvU.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaGl31GvU.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(https://img1.wsimg.com/gfonts/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaFF31.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Strait';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/strait/v19/DtViJxy6WaEr1LZDcTJsol0.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Strait';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://img1.wsimg.com/gfonts/s/strait/v19/DtViJxy6WaEr1LZDfzJs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style><style type="text/css"> #wsb-element-fd5b3156-5e4b-41fc-ae40-7e6234e4c1b8{top:0px;left:0px;position:absolute;z-index:79}#wsb-element-fd5b3156-5e4b-41fc-ae40-7e6234e4c1b8 .wsb-image-inner{padding:0px}#wsb-element-fd5b3156-5e4b-41fc-ae40-7e6234e4c1b8 .wsb-image-inner div{width:1px;height:1px;position:relative;overflow:hidden}#wsb-element-fd5b3156-5e4b-41fc-ae40-7e6234e4c1b8 img{position:absolute}#wsb-element-f4ff8f6f-ef42-4725-8b93-dfc3df11c26d{top:8225px;left:382px;position:absolute;z-index:16}#wsb-element-f4ff8f6f-ef42-4725-8b93-dfc3df11c26d .txt{width:524px;height:32px}#wsb-element-f38a02b8-a771-4d46-9626-2f2f3db9bde3{top:-1032px;left:-467px;position:absolute;z-index:473}#wsb-element-f38a02b8-a771-4d46-9626-2f2f3db9bde3{width:1288px;height:40px}#wsb-element-715e8940-69b8-4df5-8dc6-f936b555c18e{top:-222px;left:32px;position:absolute;z-index:475}#wsb-element-715e8940-69b8-4df5-8dc6-f936b555c18e{width:600px;height:40px}#wsb-element-2a48124b-25b1-4dae-b6b2-3cba32528b40{top:64px;left:408px;position:absolute;z-index:15}#wsb-element-2a48124b-25b1-4dae-b6b2-3cba32528b40 .wsb-image-inner{}#wsb-element-2a48124b-25b1-4dae-b6b2-3cba32528b40 .wsb-image-inner div{width:98px;height:35px;position:relative;overflow:hidden}#wsb-element-2a48124b-25b1-4dae-b6b2-3cba32528b40 img{position:absolute}#wsb-element-fd8b2316-b5e5-4d7a-acd6-6b7ab574b02a{top:1342px;left:607px;position:absolute;z-index:290}#wsb-element-fd8b2316-b5e5-4d7a-acd6-6b7ab574b02a .txt{width:144px;height:32px}#wsb-element-fd4b2bc3-b5f6-4eae-9f8f-8def85a02b56{top:3495px;left:1171px;position:absolute;z-index:478}#wsb-element-fd4b2bc3-b5f6-4eae-9f8f-8def85a02b56 .txt{width:300px;height:32px}#wsb-element-f818f121-9cde-43d2-b27c-02f1ded9f6e4{top:-128px;left:-157px;position:absolute;z-index:82}#wsb-element-f818f121-9cde-43d2-b27c-02f1ded9f6e4 .txt{width:103px;height:32px}#wsb-element-f0e13009-88bc-4aa3-8047-8b264505bdc9{top:576px;left:1092px;position:absolute;z-index:288}#wsb-element-f0e13009-88bc-4aa3-8047-8b264505bdc9 .txt{width:300px;height:32px}#wsb-element-ea884f85-915e-426f-b376-0f023a5f6eb5{top:3462px;left:876px;position:absolute;z-index:291}#wsb-element-ea884f85-915e-426f-b376-0f023a5f6eb5 .wsb-image-inner{}#wsb-element-ea884f85-915e-426f-b376-0f023a5f6eb5 .wsb-image-inner div{width:681px;height:390.03px;position:relative;overflow:hidden}#wsb-element-ea884f85-915e-426f-b376-0f023a5f6eb5 img{position:absolute}#wsb-element-e7fffde2-d81d-4ae3-a0e2-bb4ba90f14b1{top:2084px;left:-582px;position:absolute;z-index:503}#wsb-element-e7fffde2-d81d-4ae3-a0e2-bb4ba90f14b1 .wsb-image-inner{}#wsb-element-e7fffde2-d81d-4ae3-a0e2-bb4ba90f14b1 .wsb-image-inner div{width:653px;height:469px;position:relative;overflow:hidden}#wsb-element-e7fffde2-d81d-4ae3-a0e2-bb4ba90f14b1 img{position:absolute}#wsb-element-e42d945c-31bf-4ac5-90b6-4ffb5e374d83{top:3507px;left:-342px;position:absolute;z-index:477}#wsb-element-e42d945c-31bf-4ac5-90b6-4ffb5e374d83 .txt{width:383px;height:32px}#wsb-element-e3ad63c9-0713-4464-a054-38dab5ba90b2{top:2526px;left:169px;position:absolute;z-index:508}#wsb-element-e3ad63c9-0713-4464-a054-38dab5ba90b2 .wsb-image-inner{}#wsb-element-e3ad63c9-0713-4464-a054-38dab5ba90b2 .wsb-image-inner div{width:510px;height:340px;position:relative;overflow:hidden}#wsb-element-e3ad63c9-0713-4464-a054-38dab5ba90b2 img{position:absolute}#wsb-element-d8026348-dacd-4c44-b291-5eba855e5ca2{top:632px;left:6px;position:absolute;z-index:514}#wsb-element-d8026348-dacd-4c44-b291-5eba855e5ca2 .wsb-image-inner{}#wsb-element-d8026348-dacd-4c44-b291-5eba855e5ca2 .wsb-image-inner div{width:216px;height:85px;position:relative;overflow:hidden}#wsb-element-d8026348-dacd-4c44-b291-5eba855e5ca2 img{position:absolute}#wsb-element-d2143881-7b09-4d0e-9c43-9e1b5ab603d1{top:1022px;left:636px;position:absolute;z-index:494}#wsb-element-d2143881-7b09-4d0e-9c43-9e1b5ab603d1 .wsb-image-inner{}#wsb-element-d2143881-7b09-4d0e-9c43-9e1b5ab603d1 .wsb-image-inner div{width:915px;height:689.3px;position:relative;overflow:hidden}#wsb-element-d2143881-7b09-4d0e-9c43-9e1b5ab603d1 img{position:absolute}#wsb-element-d01cb7f7-8f0c-432a-b560-cc5f54de41ef{top:1753px;left:741px;position:absolute;z-index:94}#wsb-element-d01cb7f7-8f0c-432a-b560-cc5f54de41ef .wsb-image-inner{}#wsb-element-d01cb7f7-8f0c-432a-b560-cc5f54de41ef .wsb-image-inner div{width:814px;height:991px;position:relative;overflow:hidden}#wsb-element-d01cb7f7-8f0c-432a-b560-cc5f54de41ef img{position:absolute}#wsb-element-c92c9d68-c5f9-48ee-aff8-ffe627e51e39{top:717px;left:-154px;position:absolute;z-index:485}#wsb-element-c92c9d68-c5f9-48ee-aff8-ffe627e51e39 .txt{width:300px;height:32px}#wsb-element-c321c62c-2464-4722-b86c-7c8686d664da{top:-19px;left:-342px;position:absolute;z-index:479}#wsb-element-c321c62c-2464-4722-b86c-7c8686d664da .wsb-image-inner{}#wsb-element-c321c62c-2464-4722-b86c-7c8686d664da .wsb-image-inner div{width:374px;height:583px;position:relative;overflow:hidden}#wsb-element-c321c62c-2464-4722-b86c-7c8686d664da img{position:absolute}#wsb-element-bf8f55d3-dea4-4294-8aa5-78bedce79012{top:1706px;left:169px;position:absolute;z-index:507}#wsb-element-bf8f55d3-dea4-4294-8aa5-78bedce79012 .wsb-image-inner{}#wsb-element-bf8f55d3-dea4-4294-8aa5-78bedce79012 .wsb-image-inner div{width:520px;height:697px;position:relative;overflow:hidden}#wsb-element-bf8f55d3-dea4-4294-8aa5-78bedce79012 img{position:absolute}#wsb-element-bec557a2-15b5-4e97-88bb-88995a244cef{top:4361px;left:-589px;position:absolute;z-index:515}#wsb-element-bec557a2-15b5-4e97-88bb-88995a244cef .wsb-image-inner{}#wsb-element-bec557a2-15b5-4e97-88bb-88995a244cef .wsb-image-inner div{width:874px;height:439.2px;position:relative;overflow:hidden}#wsb-element-bec557a2-15b5-4e97-88bb-88995a244cef img{position:absolute}#wsb-element-b8f98492-7f23-4b1c-b031-e94ebbd5d7ff{top:-35px;left:200px;position:absolute;z-index:495}#wsb-element-b8f98492-7f23-4b1c-b031-e94ebbd5d7ff .wsb-image-inner{}#wsb-element-b8f98492-7f23-4b1c-b031-e94ebbd5d7ff .wsb-image-inner div{width:672px;height:567px;position:relative;overflow:hidden}#wsb-element-b8f98492-7f23-4b1c-b031-e94ebbd5d7ff img{position:absolute}#wsb-element-973a560e-4a96-4914-82c4-5314961b34c3{top:135px;left:950px;position:absolute;z-index:481}#wsb-element-973a560e-4a96-4914-82c4-5314961b34c3 .wsb-image-inner{}#wsb-element-973a560e-4a96-4914-82c4-5314961b34c3 .wsb-image-inner div{width:591px;height:410px;position:relative;overflow:hidden}#wsb-element-973a560e-4a96-4914-82c4-5314961b34c3 img{position:absolute}#wsb-element-95ab496c-705f-44ad-be8a-07b3c28ab219{top:5338px;left:444px;position:absolute;z-index:359}#wsb-element-95ab496c-705f-44ad-be8a-07b3c28ab219 .wsb-htmlsnippet-element{width:284px;height:100px;overflow:hidden;margin:auto}#wsb-element-8d18e4d8-bdc8-466a-acbb-8f42c663fad4{top:-115px;left:-528px;position:absolute;z-index:475}#wsb-element-8d18e4d8-bdc8-466a-acbb-8f42c663fad4 .txt{width:300px;height:32px}#wsb-element-89264cc4-d8b4-40e8-a193-cfcbd8fdc8fe{top:3867px;left:876px;position:absolute;z-index:511}#wsb-element-89264cc4-d8b4-40e8-a193-cfcbd8fdc8fe .wsb-image-inner{}#wsb-element-89264cc4-d8b4-40e8-a193-cfcbd8fdc8fe .wsb-image-inner div{width:686px;height:430px;position:relative;overflow:hidden}#wsb-element-89264cc4-d8b4-40e8-a193-cfcbd8fdc8fe img{position:absolute}#wsb-element-84bfd187-7eee-434a-bc56-dc24e9391bfd{top:2052px;left:-394px;position:absolute;z-index:506}#wsb-element-84bfd187-7eee-434a-bc56-dc24e9391bfd .txt{width:300px;height:32px}#wsb-element-7fb4f761-28b5-4ec9-9ce3-61c1792513d1{top:635px;left:-513px;position:absolute;z-index:81}#wsb-element-7fb4f761-28b5-4ec9-9ce3-61c1792513d1 .wsb-image-inner{}#wsb-element-7fb4f761-28b5-4ec9-9ce3-61c1792513d1 .wsb-image-inner div{width:375px;height:258px;position:relative;overflow:hidden}#wsb-element-7fb4f761-28b5-4ec9-9ce3-61c1792513d1 img{position:absolute}#wsb-element-75c63bb6-46df-4b46-871f-1b70a3b79d3c{top:1980px;left:927px;position:absolute;z-index:476}#wsb-element-75c63bb6-46df-4b46-871f-1b70a3b79d3c .txt{width:300px;height:32px}#wsb-element-740fc500-47af-4783-ae4b-e645ffe3ba19{top:512px;left:-312px;position:absolute;z-index:480}#wsb-element-740fc500-47af-4783-ae4b-e645ffe3ba19 .txt{width:346px;height:32px}#wsb-element-6bbccab8-b0df-4805-a982-d44b1f102adc{top:545px;left:337px;position:absolute;z-index:482}#wsb-element-6bbccab8-b0df-4805-a982-d44b1f102adc .wsb-image-inner{}#wsb-element-6bbccab8-b0df-4805-a982-d44b1f102adc .wsb-image-inner div{width:594px;height:421.44px;position:relative;overflow:hidden}#wsb-element-6bbccab8-b0df-4805-a982-d44b1f102adc img{position:absolute}#wsb-element-55498c4c-f850-4b17-b233-4686b894b39f{top:1034px;left:-587px;position:absolute;z-index:87}#wsb-element-55498c4c-f850-4b17-b233-4686b894b39f .wsb-image-inner{}#wsb-element-55498c4c-f850-4b17-b233-4686b894b39f .wsb-image-inner div{width:464px;height:515px;position:relative;overflow:hidden}#wsb-element-55498c4c-f850-4b17-b233-4686b894b39f img{position:absolute}#wsb-element-4c84d0eb-1627-44e1-b51e-99e5e8653abf{top:1563px;left:-592px;position:absolute;z-index:84}#wsb-element-4c84d0eb-1627-44e1-b51e-99e5e8653abf .wsb-image-inner{}#wsb-element-4c84d0eb-1627-44e1-b51e-99e5e8653abf .wsb-image-inner div{width:717px;height:426.13px;position:relative;overflow:hidden}#wsb-element-4c84d0eb-1627-44e1-b51e-99e5e8653abf img{position:absolute}#wsb-element-43328eee-35da-4eec-81e4-b099004de4c7{top:2074px;left:204px;position:absolute;z-index:499}#wsb-element-43328eee-35da-4eec-81e4-b099004de4c7 .wsb-image-inner{}#wsb-element-43328eee-35da-4eec-81e4-b099004de4c7 .wsb-image-inner div{width:450px;height:300px;position:relative;overflow:hidden}#wsb-element-43328eee-35da-4eec-81e4-b099004de4c7 img{position:absolute}#wsb-element-3feefb36-37ab-4f3f-ae84-20ff37755c38{top:3482px;left:-593px;position:absolute;z-index:474}#wsb-element-3feefb36-37ab-4f3f-ae84-20ff37755c38 .wsb-image-inner{}#wsb-element-3feefb36-37ab-4f3f-ae84-20ff37755c38 .wsb-image-inner div{width:668px;height:445.33px;position:relative;overflow:hidden}#wsb-element-3feefb36-37ab-4f3f-ae84-20ff37755c38 img{position:absolute}#wsb-element-3f9c865a-f6a5-42f6-8bf0-eb59fcc79ec4{top:2553px;left:-596px;position:absolute;z-index:504}#wsb-element-3f9c865a-f6a5-42f6-8bf0-eb59fcc79ec4 .wsb-image-inner{}#wsb-element-3f9c865a-f6a5-42f6-8bf0-eb59fcc79ec4 .wsb-image-inner div{width:681px;height:489px;position:relative;overflow:hidden}#wsb-element-3f9c865a-f6a5-42f6-8bf0-eb59fcc79ec4 img{position:absolute}#wsb-element-3471b742-2812-4964-85aa-3cb5e693b90e{top:3042px;left:-2px;position:absolute;z-index:88}#wsb-element-3471b742-2812-4964-85aa-3cb5e693b90e .wsb-image-inner{}#wsb-element-3471b742-2812-4964-85aa-3cb5e693b90e .wsb-image-inner div{width:686px;height:436.02px;position:relative;overflow:hidden}#wsb-element-3471b742-2812-4964-85aa-3cb5e693b90e img{position:absolute}#wsb-element-2d1c5126-6258-49c0-9df1-2fc02036b248{top:755px;left:-116px;position:absolute;z-index:483}#wsb-element-2d1c5126-6258-49c0-9df1-2fc02036b248 .wsb-image-inner{}#wsb-element-2d1c5126-6258-49c0-9df1-2fc02036b248 .wsb-image-inner div{width:456px;height:373.34px;position:relative;overflow:hidden}#wsb-element-2d1c5126-6258-49c0-9df1-2fc02036b248 img{position:absolute}#wsb-element-239734bc-1adf-4149-a619-c6b56ad05059{top:1144px;left:10px;position:absolute;z-index:517}#wsb-element-239734bc-1adf-4149-a619-c6b56ad05059 .wsb-image-inner{}#wsb-element-239734bc-1adf-4149-a619-c6b56ad05059 .wsb-image-inner div{width:537px;height:405px;position:relative;overflow:hidden}#wsb-element-239734bc-1adf-4149-a619-c6b56ad05059 img{position:absolute}#wsb-element-21c1b4e9-daaf-4eb6-8ad3-29855e401dfb{top:3482px;left:106px;position:absolute;z-index:509}#wsb-element-21c1b4e9-daaf-4eb6-8ad3-29855e401dfb .wsb-image-inner{}#wsb-element-21c1b4e9-daaf-4eb6-8ad3-29855e401dfb .wsb-image-inner div{width:743px;height:773px;position:relative;overflow:hidden}#wsb-element-21c1b4e9-daaf-4eb6-8ad3-29855e401dfb img{position:absolute}#wsb-element-1a3854a5-9c77-47c0-847e-18aa9f675f43{top:2027px;left:-592px;position:absolute;z-index:505}#wsb-element-1a3854a5-9c77-47c0-847e-18aa9f675f43 .wsb-shape{width:683px;height:1004px;border:solid 2px blue;padding:0px;background:transparent;box-sizing:content-box;-moz-box-sizing:content-box}#wsb-element-165e0ed2-421b-465f-bdf5-4c819f50906e{top:2805px;left:709px;position:absolute;z-index:83}#wsb-element-165e0ed2-421b-465f-bdf5-4c819f50906e .wsb-image-inner{}#wsb-element-165e0ed2-421b-465f-bdf5-4c819f50906e .wsb-image-inner div{width:842px;height:637.48px;position:relative;overflow:hidden}#wsb-element-165e0ed2-421b-465f-bdf5-4c819f50906e img{position:absolute}#wsb-element-0b63ca72-b8df-4de1-bce5-ad1c71f9d146{top:559.71px;left:964px;position:absolute;z-index:287}#wsb-element-0b63ca72-b8df-4de1-bce5-ad1c71f9d146 .wsb-image-inner{}#wsb-element-0b63ca72-b8df-4de1-bce5-ad1c71f9d146 .wsb-image-inner div{width:587px;height:392px;position:relative;overflow:hidden}#wsb-element-0b63ca72-b8df-4de1-bce5-ad1c71f9d146 img{position:absolute}#wsb-element-07557799-b011-42ef-a677-7a5de6317bfd{top:3961px;left:-591px;position:absolute;z-index:510}#wsb-element-07557799-b011-42ef-a677-7a5de6317bfd .wsb-image-inner{}#wsb-element-07557799-b011-42ef-a677-7a5de6317bfd .wsb-image-inner div{width:670px;height:374.3px;position:relative;overflow:hidden}#wsb-element-07557799-b011-42ef-a677-7a5de6317bfd img{position:absolute} </style><div class="wsb-canvas body"><div class="wsb-canvas-page-container" style="min-height: 100%; padding-top: 280px; position: relative;"><div class="wsb-canvas-scrollable" style="background-color: #ffffff; background-position-x: center; background-position-y: center; background-position: center center; background-repeat: repeat; position: absolute; width: 100%; height: 100%;"></div><div id="wsb-canvas-template-page" class="wsb-canvas-page page" style="height: 8281px; margin: auto; width: 1073px; background-color: #ffffff; position: relative; "><div id="wsb-canvas-template-container" style="position: absolute;"> <div id="wsb-element-fd5b3156-5e4b-41fc-ae40-7e6234e4c1b8" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/632c84aaf67556a10d82ed59fc78f3bb?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:1px;height:1px;"></div></div> </div><div id="wsb-element-f4ff8f6f-ef42-4725-8b93-dfc3df11c26d" class="wsb-element-text" data-type="element"> <div class="txt "><p><span class="editor_footer"><font face="Ropa Sans, serif" size="3"><span style="line-height: 16px;">Copyright @&nbsp;Mexico Historical Society.&nbsp;All rights reserved.</span></font></span></p></div> </div><div id="wsb-element-f38a02b8-a771-4d46-9626-2f2f3db9bde3" class="wsb-element-navigation" data-type="element"> <script type="text/javascript"> require(['designer/app/builder/ui/canvas/elements/navigation/subNavigation'], function (subnav) { subnav.initialize(); }); </script><div style="width: 1288px; height: 40px;" class="wsb-nav nav_simple nav-text-center nav-horizontal nav-btn-stretch wsb-navigation-rendered-top-level-container" id="wsb-nav-f38a02b8-a771-4d46-9626-2f2f3db9bde3"><style> #wsb-nav-f38a02b8-a771-4d46-9626-2f2f3db9bde3.wsb-navigation-rendered-top-level-container ul > li:hover, #wsb-nav-f38a02b8-a771-4d46-9626-2f2f3db9bde3.wsb-navigation-rendered-top-level-container ul > li:hover > a, #wsb-nav-f38a02b8-a771-4d46-9626-2f2f3db9bde3.wsb-navigation-rendered-top-level-container ul > li.active:hover, #wsb-nav-f38a02b8-a771-4d46-9626-2f2f3db9bde3.wsb-navigation-rendered-top-level-container ul > li.active > a:hover, #wsb-nav-f38a02b8-a771-4d46-9626-2f2f3db9bde3.wsb-navigation-rendered-top-level-container ul > li.active .nav-subnav li:hover, #wsb-nav-f38a02b8-a771-4d46-9626-2f2f3db9bde3.wsb-navigation-rendered-top-level-container ul > li.active .nav-subnav li:hover > a {background-color: !important;color: !important;} </style><ul class="wsb-navigation-rendered-top-level-menu "><li style="width: 6.66666666666667%"><a href="home.html" target="" data-title="Home" data-pageid="0545628b-7ecc-4f16-a0c5-9cdb260847b9" data-url="home.html">Home</a></li><li style="width: 6.66666666666667%" class="has-children"><a href="museum.html" target="" data-title="Museum" data-pageid="4ad4ce99-ea82-4d9b-b321-8714851cc4bd" data-url="museum.html">Museum</a><ul class="wsb-navigation-rendered-top-level-menu nav-subnav"><li><a href="tin-shop.html" target="" data-title="Tin Shop" data-pageid="624166b0-b2a6-4072-8d64-95c6f8750a13" data-url="tin-shop.html">Tin Shop</a></li><li><a href="chandler-bank.html" target="" data-title="Chandler Bank" data-pageid="9aef6cde-f612-4d04-9663-abb6f24cd913" data-url="chandler-bank.html">Chandler Bank</a></li></ul></li><li style="width: 6.66666666666667%" class="has-children"><a href="mexico-history.html" target="" data-title="Mexico History" data-pageid="61f8b269-8f32-42fa-84b5-f058d45e220a" data-url="mexico-history.html">Mexico History</a><ul class="wsb-navigation-rendered-top-level-menu nav-subnav"><li class="has-children"><a href="our-hamlets.html" target="" data-title="Our Hamlets" data-pageid="d6471306-8788-4a06-9cb7-7ff7a3674dcd" data-url="our-hamlets.html">Our Hamlets</a><ul class="wsb-navigation-rendered-top-level-menu nav-subnav"><li><a href="arthur.html" target="" data-title="Arthur" data-pageid="1c8b81f6-1b5d-4112-89ff-ad6f5c760681" data-url="arthur.html">Arthur</a></li><li><a href="colosse.html" target="" data-title="Colosse" data-pageid="678c42bc-19f0-45d4-bb1f-4bbd0fab842f" data-url="colosse.html">Colosse</a></li><li><a href="dewey-s-corners.html" target="" data-title="Dewey&#39;s Corners" data-pageid="3d013b36-2b58-4c21-8ae8-3b6745824cee" data-url="dewey-s-corners.html">Dewey&#39;s Corners</a></li><li><a href="french-street.html" target="" data-title="French Street" data-pageid="c670091a-6b86-4fe2-a915-9808ba3421a7" data-url="french-street.html">French Street</a></li><li><a href="fort-leaser.html" target="" data-title="Fort Leaser" data-pageid="0b064781-7f30-43ed-9f5f-df9a43c2d7f2" data-url="fort-leaser.html">Fort Leaser</a></li><li><a href="grafton-square.html" target="" data-title="Grafton Square" data-pageid="7fa38132-d65d-45ef-912f-8ab5fc602da9" data-url="grafton-square.html">Grafton Square</a></li><li><a href="lamb-s-corners.html" target="" data-title="Lamb&#39;s Corners" data-pageid="452f3d90-a067-462e-972b-074d1d103a3e" data-url="lamb-s-corners.html">Lamb&#39;s Corners</a></li><li><a href="maple-view.html" target="" data-title="Maple View" data-pageid="9b09547b-c0f2-4cab-a90d-d5d2f95bccd1" data-url="maple-view.html">Maple View</a></li><li><a href="prattham.html" target="" data-title="Prattham" data-pageid="ff90c9e2-60cd-44c2-b7eb-7aaa9cebb73c" data-url="prattham.html">Prattham</a></li><li><a href="north-mexico.html" target="" data-title="North Mexico" data-pageid="5aa45b92-4b42-45e0-bc6d-8b096a599e9d" data-url="north-mexico.html">North Mexico</a></li><li><a href="other-little-centers.html" target="" data-title="Other Little Centers" data-pageid="ff716359-22f7-4a08-94ff-c455eeda98a3" data-url="other-little-centers.html">Other Little Centers</a></li><li><a href="quaker-mills.html" target="" data-title="Quaker Mills" data-pageid="d3744282-508a-4dfa-b21c-0de1c5ec2ecd" data-url="quaker-mills.html">Quaker Mills</a></li><li><a href="red-mills.html" target="" data-title="Red Mills" data-pageid="eb913b42-70f8-4c96-ab7b-b3c4c0d0f7bf" data-url="red-mills.html">Red Mills</a></li><li><a href="texas.html" target="" data-title="Texas" data-pageid="16262149-bfc0-45df-970e-2374d9932c3a" data-url="texas.html">Texas</a></li><li><a href="wellwood.html" target="" data-title="Wellwood" data-pageid="fef298cb-5ecf-43f9-ab7e-af28dceeffe4" data-url="wellwood.html">Wellwood</a></li></ul></li></ul></li><li style="width: 6.66666666666667%"><a href="mexico-historical-society-1.html" target="" data-title="Village of Mexico" data-pageid="00000000-0000-0000-0000-000002736274" data-url="mexico-historical-society-1.html">Village of Mexico</a></li><li style="width: 6.66666666666667%"><a href="events.html" target="" data-title="Events" data-pageid="5a3c09ad-8158-4c99-9fe4-2b02e44cf892" data-url="events.html">Events</a></li><li style="width: 6.66666666666667%"><a href="membership.html" target="" data-title="Membership" data-pageid="ea3a2c48-8835-4548-8415-ca24050c90f8" data-url="membership.html">Membership</a></li><li style="width: 6.66666666666667%"><a href="publications.html" target="" data-title="Publications" data-pageid="7ddbef39-50de-427b-a49f-52f6417ea0f7" data-url="publications.html">Publications</a></li><li style="width: 6.66666666666667%" class="active"><a href="photo-gallery.html" target="" data-title="Photo Gallery" data-pageid="de23dcb1-61bd-428e-b8b8-e4aabf0cfd8e" data-url="photo-gallery.html">Photo Gallery</a></li><li style="width: 6.66666666666667%"><a href="links.html" target="" data-title="Links" data-pageid="1a0bfd12-5c30-4d07-a4fa-a3578fad5dcb" data-url="links.html">Links</a></li><li style="width: 6.66666666666667%"><a href="contact.html" target="" data-title="Contact" data-pageid="00000000-0000-0000-0000-000002743752" data-url="contact.html">Contact</a></li><li style="width: 6.66666666666667%"><a href="the-great-calamity-of-1799.html" target="" data-title="The Great Calamity of 1799" data-pageid="63e4badb-394e-4d8c-b9e3-b75809cbc982" data-url="the-great-calamity-of-1799.html">The Great Calamity of 1799</a></li><li style="width: 6.66666666666667%"><a href="first-families-village.html" target="" data-title="First Families Village" data-pageid="f56b907a-5a3e-4f4c-872e-30995133854a" data-url="first-families-village.html">First Families Village</a></li><li style="width: 6.66666666666667%"><a href="mother-of-towns.html" target="" data-title="Mother of Towns" data-pageid="3c868b62-27f6-47e7-9456-c012c7229341" data-url="mother-of-towns.html">Mother of Towns</a></li><li style="width: 6.66666666666667%"><a href="schools.html" target="" data-title="Schools" data-pageid="021460dd-c657-4778-ae25-56308dda1889" data-url="schools.html">Schools</a></li><li style="width: 6.66666666666667%"><a href="memorial-day-1918.html" target="" data-title="Memorial Day 1918" data-pageid="269651b5-ccfc-447a-8853-0cc1e69cf6e8" data-url="memorial-day-1918.html">Memorial Day 1918</a></li></ul></div> </div><div id="wsb-element-715e8940-69b8-4df5-8dc6-f936b555c18e" class="wsb-element-navigation" data-type="element"> <script type="text/javascript"> require(['designer/app/builder/ui/canvas/elements/navigation/subNavigation'], function (subnav) { subnav.initialize(); }); </script><div style="width: 600px; height: 40px;" class="wsb-nav nav_simple nav-text-center nav-horizontal nav-btn-stretch wsb-navigation-rendered-top-level-container" id="wsb-nav-715e8940-69b8-4df5-8dc6-f936b555c18e"><style> #wsb-nav-715e8940-69b8-4df5-8dc6-f936b555c18e.wsb-navigation-rendered-top-level-container ul > li:hover, #wsb-nav-715e8940-69b8-4df5-8dc6-f936b555c18e.wsb-navigation-rendered-top-level-container ul > li:hover > a, #wsb-nav-715e8940-69b8-4df5-8dc6-f936b555c18e.wsb-navigation-rendered-top-level-container ul > li.active:hover, #wsb-nav-715e8940-69b8-4df5-8dc6-f936b555c18e.wsb-navigation-rendered-top-level-container ul > li.active > a:hover, #wsb-nav-715e8940-69b8-4df5-8dc6-f936b555c18e.wsb-navigation-rendered-top-level-container ul > li.active .nav-subnav li:hover, #wsb-nav-715e8940-69b8-4df5-8dc6-f936b555c18e.wsb-navigation-rendered-top-level-container ul > li.active .nav-subnav li:hover > a {background-color: !important;color: !important;} </style><ul class="wsb-navigation-rendered-top-level-menu "><li style="width: 9.09090909090909%"><a href="home.html" target="" data-title="Home" data-pageid="0545628b-7ecc-4f16-a0c5-9cdb260847b9" data-url="home.html">Home</a></li><li style="width: 9.09090909090909%" class="has-children"><a href="mexico-history.html" target="" data-title="Mexico History" data-pageid="61f8b269-8f32-42fa-84b5-f058d45e220a" data-url="mexico-history.html">Mexico History</a><ul class="wsb-navigation-rendered-top-level-menu nav-subnav"><li><a href="mother-of-towns.html" target="" data-title="Mother of Towns" data-pageid="3c868b62-27f6-47e7-9456-c012c7229341" data-url="mother-of-towns.html">Mother of Towns</a></li><li><a href="memorial-day-1918.html" target="" data-title="Memorial Day 1918" data-pageid="269651b5-ccfc-447a-8853-0cc1e69cf6e8" data-url="memorial-day-1918.html">Memorial Day 1918</a></li><li><a href="schools.html" target="" data-title="Schools" data-pageid="021460dd-c657-4778-ae25-56308dda1889" data-url="schools.html">Schools</a></li></ul></li><li style="width: 9.09090909090909%" class="has-children"><a href="our-hamlets.html" target="" data-title="Our Hamlets" data-pageid="d6471306-8788-4a06-9cb7-7ff7a3674dcd" data-url="our-hamlets.html">Our Hamlets</a><ul class="wsb-navigation-rendered-top-level-menu nav-subnav"><li><a href="arthur.html" target="" data-title="Arthur" data-pageid="1c8b81f6-1b5d-4112-89ff-ad6f5c760681" data-url="arthur.html">Arthur</a></li><li><a href="dewey-s-corners.html" target="" data-title="Dewey&#39;s Corners" data-pageid="3d013b36-2b58-4c21-8ae8-3b6745824cee" data-url="dewey-s-corners.html">Dewey&#39;s Corners</a></li><li><a href="fort-leaser.html" target="" data-title="Fort Leaser" data-pageid="0b064781-7f30-43ed-9f5f-df9a43c2d7f2" data-url="fort-leaser.html">Fort Leaser</a></li><li><a href="french-street.html" target="" data-title="French Street" data-pageid="c670091a-6b86-4fe2-a915-9808ba3421a7" data-url="french-street.html">French Street</a></li><li><a href="grafton-square.html" target="" data-title="Grafton Square" data-pageid="7fa38132-d65d-45ef-912f-8ab5fc602da9" data-url="grafton-square.html">Grafton Square</a></li><li><a href="lamb-s-corners.html" target="" data-title="Lamb&#39;s Corners" data-pageid="452f3d90-a067-462e-972b-074d1d103a3e" data-url="lamb-s-corners.html">Lamb&#39;s Corners</a></li><li><a href="maple-view.html" target="" data-title="Maple View" data-pageid="9b09547b-c0f2-4cab-a90d-d5d2f95bccd1" data-url="maple-view.html">Maple View</a></li><li><a href="north-mexico.html" target="" data-title="North Mexico" data-pageid="5aa45b92-4b42-45e0-bc6d-8b096a599e9d" data-url="north-mexico.html">North Mexico</a></li><li><a href="prattham.html" target="" data-title="Prattham" data-pageid="ff90c9e2-60cd-44c2-b7eb-7aaa9cebb73c" data-url="prattham.html">Prattham</a></li><li><a href="quaker-mills.html" target="" data-title="Quaker Mills" data-pageid="d3744282-508a-4dfa-b21c-0de1c5ec2ecd" data-url="quaker-mills.html">Quaker Mills</a></li><li><a href="wellwood.html" target="" data-title="Wellwood" data-pageid="fef298cb-5ecf-43f9-ab7e-af28dceeffe4" data-url="wellwood.html">Wellwood</a></li><li class="has-children"><a href="vera-cruz.html" target="" data-title="Vera Cruz" data-pageid="3a747f50-a35b-4c80-b7ad-11bc31bff677" data-url="vera-cruz.html">Vera Cruz</a><ul class="wsb-navigation-rendered-top-level-menu nav-subnav"><li><a href="the-great-calamity-of-1799.html" target="" data-title="The Great Calamity of 1799" data-pageid="63e4badb-394e-4d8c-b9e3-b75809cbc982" data-url="the-great-calamity-of-1799.html">The Great Calamity of 1799</a></li></ul></li></ul></li><li style="width: 9.09090909090909%" class="has-children"><a href="mexico-historical-society-1.html" target="" data-title="Village of Mexico" data-pageid="00000000-0000-0000-0000-000002736274" data-url="mexico-historical-society-1.html">Village of Mexico</a><ul class="wsb-navigation-rendered-top-level-menu nav-subnav"><li><a href="first-families-village.html" target="" data-title="First Families Village" data-pageid="f56b907a-5a3e-4f4c-872e-30995133854a" data-url="first-families-village.html">First Families Village</a></li></ul></li><li style="width: 9.09090909090909%" class="has-children"><a href="museum.html" target="" data-title="Museum" data-pageid="4ad4ce99-ea82-4d9b-b321-8714851cc4bd" data-url="museum.html">Museum</a><ul class="wsb-navigation-rendered-top-level-menu nav-subnav"><li><a href="tin-shop.html" target="" data-title="Tin Shop" data-pageid="624166b0-b2a6-4072-8d64-95c6f8750a13" data-url="tin-shop.html">Tin Shop</a></li><li><a href="chandler-bank.html" target="" data-title="Chandler Bank" data-pageid="9aef6cde-f612-4d04-9663-abb6f24cd913" data-url="chandler-bank.html">Chandler Bank</a></li></ul></li><li style="width: 9.09090909090909%"><a href="events.html" target="" data-title="Events" data-pageid="5a3c09ad-8158-4c99-9fe4-2b02e44cf892" data-url="events.html">Events</a></li><li style="width: 9.09090909090909%"><a href="publications.html" target="" data-title="Publications" data-pageid="7ddbef39-50de-427b-a49f-52f6417ea0f7" data-url="publications.html">Publications</a></li><li style="width: 9.09090909090909%" class="active"><a href="photo-gallery.html" target="" data-title="Photo Gallery" data-pageid="de23dcb1-61bd-428e-b8b8-e4aabf0cfd8e" data-url="photo-gallery.html">Photo Gallery</a></li><li style="width: 9.09090909090909%"><a href="membership.html" target="" data-title="Membership" data-pageid="ea3a2c48-8835-4548-8415-ca24050c90f8" data-url="membership.html">Membership</a></li><li style="width: 9.09090909090909%"><a href="contact.html" target="" data-title="Contact" data-pageid="00000000-0000-0000-0000-000002743752" data-url="contact.html">Contact</a></li><li style="width: 9.09090909090909%"><a href="links.html" target="" data-title="Links" data-pageid="1a0bfd12-5c30-4d07-a4fa-a3578fad5dcb" data-url="links.html">Links</a></li></ul></div> </div><div id="wsb-element-fd8b2316-b5e5-4d7a-acd6-6b7ab574b02a" class="wsb-element-text" data-type="element"> <div class="txt "><p><span style="color:#F0F8FF;"><strong>Museum Tour.</strong></span></p></div> </div><div id="wsb-element-fd4b2bc3-b5f6-4eae-9f8f-8def85a02b56" class="wsb-element-text" data-type="element"> <div class="txt "><p><strong><span style="color:#000000;">MACS Students Tour</span></strong></p></div> </div><div id="wsb-element-f818f121-9cde-43d2-b27c-02f1ded9f6e4" class="wsb-element-text" data-type="element"> <div class="txt "><p><span style="font-size:14px;"><span style="color:#FFFFFF;">​​MIMI'S Diner</span></span><br></p></div> </div><div id="wsb-element-f0e13009-88bc-4aa3-8047-8b264505bdc9" class="wsb-element-text" data-type="element"> <div class="txt "><p><strong><span style="color:#800000;">Museum Tour.</span></strong></p></div> </div><div id="wsb-element-ea884f85-915e-426f-b376-0f023a5f6eb5" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/85666c7d9994d44914c132e776572a75?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:681px;height:390px;"></div></div> </div><div id="wsb-element-e7fffde2-d81d-4ae3-a0e2-bb4ba90f14b1" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/610fbe26527a2693c4a4330e70a8ee1d?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:653px;height:469px;"></div></div> </div><div id="wsb-element-e42d945c-31bf-4ac5-90b6-4ffb5e374d83" class="wsb-element-text" data-type="element"> <div class="txt "><p><span style="color:#F0FFFF;">Washington Hall and Mexico House Hotel</span><span style="color:#E6E6FA;"></span></p></div> </div><div id="wsb-element-e3ad63c9-0713-4464-a054-38dab5ba90b2" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/8c21141b7efc20eab98b03a62a9ae9d3?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:510px;height:340px;"></div></div> </div><div id="wsb-element-d8026348-dacd-4c44-b291-5eba855e5ca2" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/5de8663bd3fde87baf29278d2d223dbb?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:216px;height:85px;"></div></div> </div><div id="wsb-element-d2143881-7b09-4d0e-9c43-9e1b5ab603d1" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/d3eb6dabfec3ff75eff577e1f8a3a7aa?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:915px;height:689px;"></div></div> </div><div id="wsb-element-d01cb7f7-8f0c-432a-b560-cc5f54de41ef" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/3a0e3bba5b63b5eff529c23f097d91da?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:814px;height:991px;"></div></div> </div><div id="wsb-element-c92c9d68-c5f9-48ee-aff8-ffe627e51e39" class="wsb-element-text" data-type="element"> <div class="txt "><p><strong><span style="color:#F0FFFF;">1922 MACS Football Champions</span></strong></p></div> </div><div id="wsb-element-c321c62c-2464-4722-b86c-7c8686d664da" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/b3f48d814a77edcbcb50bfa496dea0d6?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:374px;height:583px;"></div></div> </div><div id="wsb-element-bf8f55d3-dea4-4294-8aa5-78bedce79012" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/adb58057ca0230f30edcb4aad19718bd?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:520px;height:697px;"></div></div> </div><div id="wsb-element-bec557a2-15b5-4e97-88bb-88995a244cef" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/d81fe4868572c033bf0a6a8a2f2a2c0c?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:874px;height:439px;"></div></div> </div><div id="wsb-element-b8f98492-7f23-4b1c-b031-e94ebbd5d7ff" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/98fa61d0bef2c7ba3addf75e6ac12c16?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:672px;height:567px;"></div></div> </div><div id="wsb-element-973a560e-4a96-4914-82c4-5314961b34c3" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/43af7e8b442fcfe0f559cb43e9d2e03d?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:591px;height:410px;"></div></div> </div><div id="wsb-element-95ab496c-705f-44ad-be8a-07b3c28ab219" class="wsb-element-htmlsnippet" data-type="element">
+
+
+
+
+        <div class="wsb-htmlsnippet-element"><!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=7668398&style=0006&nbdigits=5&type=page&initCount=0" title="Total Website Hits" alt="Web Hits" border="0"></a></div>
+</div><div id="wsb-element-8d18e4d8-bdc8-466a-acbb-8f42c663fad4" class="wsb-element-text" data-type="element"> <div class="txt "><p><span style="color:#F0FFFF;">Mimi's Diner&nbsp; &nbsp;1960's</span></p></div> </div><div id="wsb-element-89264cc4-d8b4-40e8-a193-cfcbd8fdc8fe" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/637d531b1eb19c9bed9b857a44b06cda?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:686px;height:430px;"></div></div> </div><div id="wsb-element-84bfd187-7eee-434a-bc56-dc24e9391bfd" class="wsb-element-text" data-type="element"> <div class="txt "><p><span style="color:#0000FF;">Ramsey's Department Store</span></p></div> </div><div id="wsb-element-7fb4f761-28b5-4ec9-9ce3-61c1792513d1" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/2fa07ce388858d052c146122b5c88909?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:375px;height:258px;"></div></div> </div><div id="wsb-element-75c63bb6-46df-4b46-871f-1b70a3b79d3c" class="wsb-element-text" data-type="element"> <div class="txt "><p><font color="#f0f8ff">Oswego County Home</font></p></div> </div><div id="wsb-element-740fc500-47af-4783-ae4b-e645ffe3ba19" class="wsb-element-text" data-type="element"> <div class="txt "><p><strong><span style="color:#F0F8FF;">Chandler &amp; Ames 1855 Bank Museum</span></strong></p></div> </div><div id="wsb-element-6bbccab8-b0df-4805-a982-d44b1f102adc" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/116f29c53daf0cc91e2799af752f38bc?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:594px;height:421px;"></div></div> </div><div id="wsb-element-55498c4c-f850-4b17-b233-4686b894b39f" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/0f0dd4677c201e7558aa8c38852ea4df?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:464px;height:515px;"></div></div> </div><div id="wsb-element-4c84d0eb-1627-44e1-b51e-99e5e8653abf" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/319ba2985931d56328d7b0c9bb16bc30?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:717px;height:426px;"></div></div> </div><div id="wsb-element-43328eee-35da-4eec-81e4-b099004de4c7" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/2de3f0c9b54d4cfc28351954e8467913?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:450px;height:300px;"></div></div> </div><div id="wsb-element-3feefb36-37ab-4f3f-ae84-20ff37755c38" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/e9aacbdb1036be02fc8da34e55cf985a?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:668px;height:445px;"></div></div> </div><div id="wsb-element-3f9c865a-f6a5-42f6-8bf0-eb59fcc79ec4" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/4a8bc6c1ebc44ea7c648183043c070a4?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:681px;height:489px;"></div></div> </div><div id="wsb-element-3471b742-2812-4964-85aa-3cb5e693b90e" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/cf1b9cbd90130171b4e2d9f246bf13a9?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:686px;height:436px;"></div></div> </div><div id="wsb-element-2d1c5126-6258-49c0-9df1-2fc02036b248" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/0b1d60432535bb1690fc37388b136077?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:456px;height:373px;"></div></div> </div><div id="wsb-element-239734bc-1adf-4149-a619-c6b56ad05059" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/5a0a4cc4f1a1bcd2e0c1c252e1a8ecde?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:537px;height:405px;"></div></div> </div><div id="wsb-element-21c1b4e9-daaf-4eb6-8ad3-29855e401dfb" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/2c6bb164f5a9fd57ec2249e35811348d?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:743px;height:773px;"></div></div> </div><div id="wsb-element-1a3854a5-9c77-47c0-847e-18aa9f675f43" class="wsb-element-shape" data-type="element"> <div class="wsb-shape customStyle "></div> </div><div id="wsb-element-165e0ed2-421b-465f-bdf5-4c819f50906e" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/74f5d22c02fde1504750161f108b420e?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:842px;height:637px;"></div></div> </div><div id="wsb-element-0b63ca72-b8df-4de1-bce5-ad1c71f9d146" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/8dd6c368b6bf8fdd73aacdf504131f98?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:587px;height:392px;"></div></div> </div><div id="wsb-element-07557799-b011-42ef-a677-7a5de6317bfd" class="wsb-element-image" data-type="element"> <div class="wsb-image-inner "><div class="img"><img src="https://nebula.wsimg.com/2243857ddc1023a60e36cec3555ba9f6?AccessKeyId=2B092E40C7D4C6D5FCC7&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:670px;height:374px;"></div></div> </div> </div></div><div id="wsb-canvas-template-footer" class="wsb-canvas-page-footer footer" style="margin: auto; min-height:100px; height: 100px; width: 1073px; position: relative;"><div id="wsb-canvas-template-footer-container" class="footer-container" style="position: absolute"> <div id="wsb-element-2a48124b-25b1-4dae-b6b2-3cba32528b40" class="wsb-element-image" > <div class="wsb-image-inner "><div class="img"><a href="https://www.godaddy.com/websites/website-builder?cvosrc=assets.wsb_badge.wsb_badge" target="_blank" rel=""><img src="https://nebula.wsimg.com/c6c4f64f474b683786684b2f271fa4f7?AccessKeyId=531592D248B589D87A56&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:98px;height:35px;"></a></div></div> </div> </div></div><div class="view-as-mobile" style="padding:10px;position:relative;text-align:center;display:none;"><a href="#" onclick="return false;">View on Mobile</a></div></div></div><script type="text/javascript"> require(['jquery', 'common/cookiemanager/cookiemanager', 'designer/iebackground/iebackground'], function ($, cookieManager, bg) { if (cookieManager.getCookie("WSB.ForceDesktop")) { $('.view-as-mobile', '.wsb-canvas-page-container').show().find('a').bind('click', function () { cookieManager.eraseCookie("WSB.ForceDesktop"); window.location.reload(true); }); } bg.fixBackground(); }); </script><script> "undefined" === typeof _trfq || (window._trfq = []); "undefined" === typeof _trfd && (window._trfd = []), _trfd.push({ "ap": "WSBv7" }); </script><script src="//img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js" async=""></script></body></html> 

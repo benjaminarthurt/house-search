@@ -1,0 +1,493 @@
+
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCMCQM4" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+
+
+    var axel = Math.random() + "";
+    var a = axel * 10000000000000;
+    document.write('<iframe src="https://4815840.fls.doubleclick.net/activityi;src=4815840;type=howar0;cat=howar002;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+
+
+    <iframe src="https://4815840.fls.doubleclick.net/activityi;src=4815840;type=howar0;cat=howar002;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+
+
+
+
+
+
+    
+        
+            
+                
+                    
+                    Print with additional property photos
+                
+                 Print
+            
+        
+    
+
+
+    
+        
+
+
+
+
+
+
+
+    
+        
+            
+                
+                    
+                
+            
+            
+                
+                    
+                        5707 Scenic Avenue
+                        Mexico, NY 13114
+                    
+
+
+
+                        Sold 9/3/2024
+                
+            
+            
+                
+                    
+                                
+                                    $255,000
+                                
+
+                    
+                
+                    
+                        Single Family Home
+                    
+            
+        
+    
+
+    
+        
+    
+
+    
+        
+            
+                    4Beds
+                                    
+                        
+                            
+                                    4 baths
+
+                            
+                        
+                    
+                                    2,184Sq Ft
+            
+        
+    
+
+    
+        
+                
+                Welcome to this updated grand brick home in the Village of Mexico. The current owners opened it up as a single family home but it can easily be turned back into a 2 unit by closing up two doors for income potential. The large lower main unit is 2 bedroom 2 1/2 baths and the upper unit is 2 bedrooms 2 baths. The open attic is great for extra space or storage as well as an attached 2 car garage. Enjoy the charming village on the large front porches.
+        
+        
+            
+
+                
+                    
+                        
+                            
+                        
+                        
+                            View this listing on our website
+
+                                    $255,000
+
+                            5707 Scenic Avenue
+                            
+                                Mexico, NY
+                                13114
+                            
+
+
+                                
+                                    Single Family Home
+                                
+                        
+                    
+                
+            
+        
+    
+
+
+
+        
+            
+                
+                        
+                            
+                        
+
+                        
+                            Location & Driving Directions
+                            
+                                Take the Mexico Exit from I81. Head west on State Route 104. Turn right onto Scenic Ave. House will be on your left.
+                            
+                        
+                
+            
+        
+
+        
+                
+                    
+                        Mexico Academy And Central
+                        School District
+                    
+                
+
+                
+                    
+                        Colonial, Historic Antique, Two Story
+                        Home Style
+                    
+                
+
+                
+                    
+                        $6,800.00
+                        Annual Taxes
+                    
+                
+
+                
+                    
+                        1900
+                        Year Built
+                    
+                
+
+                
+                    
+                        2
+                        Stories
+                    
+                
+
+            
+                
+                    S1531925
+                    MLS #
+                
+            
+                
+                    
+                        2
+                        Garage Size
+                    
+                      
+        
+
+        
+            
+                Interior Features
+            
+            
+                    
+                        Gas oven
+                    
+                    
+                        Dishwasher
+                    
+                    
+                        Central air
+                    
+                    
+                        Forced air heat
+                    
+                    
+                        Natural gas heat
+                    
+                    
+                        Zoned heat
+                    
+                    
+                        Gas water heater
+                    
+                    
+                        Cable television available
+                    
+                    
+                        Wood floors
+                    
+                    
+                        Hardwood floors
+                    
+                    
+                        Vinyl flooring
+                    
+                    
+                        Full basement
+                    
+            
+        
+
+        
+            
+                Exterior Features
+            
+            
+                    
+                        Garage
+                    
+                    
+                        Two car garage
+                    
+                    
+                        Attached parking
+                    
+                    
+                        Attached garage
+                    
+                    
+                        Garage spaces: 2
+                    
+                    
+                        Vinyl siding
+                    
+                    
+                        Brick exterior
+                    
+                    
+                        Frame exterior
+                    
+                    
+                        Porch
+                    
+                    
+                        Lot acreage is: 0.4965
+                    
+                    
+                        Lot dimension is: 108X198
+                    
+                    
+                        Lot sqft: 21627
+                    
+                    
+                        Subdivision: Section 134
+                    
+                    
+                        Road frontage: City Street
+                    
+                    
+                        Lot number: 12
+                    
+                    
+                        Asphalt roof
+                    
+                    
+                        Public water
+                    
+                    
+                        Electric Type: Circuit Breakers
+                    
+                    
+                        Levels in property: Two
+                    
+                    
+                        Total square feet: 2184
+                    
+                    
+                        Living square feet: 2184
+                    
+                    
+                        Property style: colonial
+                    
+                    
+                        For sale
+                    
+            
+        
+
+        
+            
+                Rooms & Dimensions
+            
+            
+                
+                        
+                            Number of rooms: 9
+                        
+                        
+                            Bedrooms on main floor: 1
+                        
+                        
+                            Baths on main floor: 2
+                        
+                        
+                            Laundry room on main floor
+                        
+                
+            
+        
+
+    
+        
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+        
+    
+
+    
+        
+        
+            
+                5707 Scenic Avenue, Mexico, NY 13114 is a 4 bedroom, 4 bath single family home was sold for $255,000.
+                
+
+                    Courtesy of Furnia Realty, the data relating to real estate for sale on this web site comes in part from the Broker Reciprosity(sm) Program of the Central New York Information Service, Inc. Multiple Listing Service. Real estate listings held by brokerage firms other than Howard Hanna Real Estate are marked with the Broker Reciprosity(sm) thumbnail logo and detailed information about them includes the name of the listing brokers. © 2026 Central New York Information Service, Inc. All rights Reserved. Information deemed reliable but not guaranteed.
+                
+
+            
+        
+        
+            
+                
+                    
+                
+            
+            
+                
+                    
+                    
+                    
+                        
+                    
+                    
+                        
+                            Howard Hanna ©2026
+                        
+                    
+                
+            
+        
+    
+
+    
+
+    
+
+    
+    
+
+
+    
+    
+    
+    
+
+    
+        function PrintBrochure() {
+            var printPhotos = $('#IncludeAdditionalPhotos').is(':checked');
+            if (printPhotos) {
+                $('.listing-imgs-js').removeClass('d-none');
+            }
+            else {
+                $('.listing-imgs-js').addClass('d-none');
+            }
+            self.print();
+        }
+
+        $(document).ready(function () {
+            $("#qrUrl").kendoQRCode({
+                value: "https://www.howardhanna.com/property/5707-scenic-avenue-mexico-ny-13114-360003803518?mlsname=SyracuseNYsold&mlsnumber=S1531925",
+                errorCorrection: "L",
+                border: {
+                    color: "#000000"
+                }
+            });
+
+            $('#IncludeAdditionalPhotos').change(function () {
+                if ($(this).is(":checked")) {
+                    $('.listing-imgs-js').removeClass('d-none');
+                }
+                else {
+                    $('.listing-imgs-js').addClass('d-none');
+                }
+            });
+        });
+    
+
+(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e163b8b6bbbb8b1',t:'MTc3NDM2MTE0Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();
+
+
+atrkopts={atrk_acct:"labHn1QolK10kU",domain:"howardhanna.com",dynamic:!0};(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://certify-js.alexametrics.com/atrk.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();
+
+<img src="https://certify.alexametrics.com/atrk.gif?account=labHn1QolK10kU" style="display:none" height="1" width="1" alt="">
+
+
+(function(c,d,f,g,e){c[e]=c[e]||[];var h=function(){var b={ti:"11041731"};b.q=c[e];c[e]=new UET(b);c[e].push("pageLoad")};var a=d.createElement(f);a.src=g;a.async=1;a.onload=a.onreadystatechange=function(){var b=this.readyState;b&&"loaded"!==b&&"complete"!==b||(h(),a.onload=a.onreadystatechange=null)};d=d.getElementsByTagName(f)[0];d.parentNode.insertBefore(a,d)})(window,document,"script","//bat.bing.com/bat.js","uetq");(function(){var a=document.createElement("script");a.type="text/javascript";a.src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js";a.setAttribute("integrity","sha384-2epjwyVj8M4n8AweIsY7SKPSJmqBBBkmksXvkmtYORfxPS1I4NZE/+Ttk/9gCELG");a.setAttribute("crossorigin","anonymous");document.getElementsByTagName("head")[0].appendChild(a)})();
+!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","642131817060892");fbq("track","PageView");
+<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=642131817060892&amp;ev=PageView&amp;noscript=1">
+
+!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","325687002797377");fbq("set","agent","tmgoogletagmanager","325687002797377");fbq("track","PageView");
+<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=325687002797377&amp;ev=PageView&amp;noscript=1">
+
+!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1245412386591520");fbq("track","PageView");
+<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1245412386591520&amp;ev=PageView&amp;noscript=1">
+!function(l,a){var h,f,g,m;a.__SV||(window.posthog=a,a._i=[],a.init=function(p,n,d){function q(e,b){var k=b.split(".");2==k.length&&(e=e[k[0]],b=k[1]);e[b]=function(){e.push([b].concat(Array.prototype.slice.call(arguments,0)))}}(g=l.createElement("script")).type="text/javascript";g.async=!0;g.src=n.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js";(m=l.getElementsByTagName("script")[0]).parentNode.insertBefore(g,m);var c=a;void 0!==d?c=a[d]=[]:d="posthog";c.people=c.people||
+[];c.toString=function(e){var b="posthog";return"posthog"!==d&&(b+="."+d),e||(b+=" (stub)"),b};c.people.toString=function(){return c.toString(1)+".people (stub)"};h="init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" ");
+for(f=0;f<h.length;f++)q(c,h[f]);a._i.push([p,n,d])},a.__SV=1)}(document,window.posthog||[]);posthog.init("phc_BdwLtLpiqCA7paTQmlNdXz8eoJhEGRR4inudIgXuGkG",{api_host:"https://us.i.posthog.com",defaults:"2025-11-30"});
+
+schemaLoad("Howard_Hanna","IZ66F-FRPAR-IFVUX-68WGY");
+
+ttd_dom_ready(function(){if(typeof TTDUniversalPixelApi==="function"){var a=new TTDUniversalPixelApi;a.init("xqojdq7",["4lbq4u7"],"https://insight.adsrvr.org/track/up")}});
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  

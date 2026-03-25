@@ -1,0 +1,37 @@
+om/state/New-York"},{"@type":"ListItem","position":3,"name":"Mexico","item":"https://www.redfin.com/city/30345/NY/Mexico"},{"@type":"ListItem","position":4,"name":"5707 Scenic Ave Unit C, Mexico, NY 13114"}]}More real estate resourcesRedfinNew YorkMexico5707 Scenic Ave Unit C, Mexico, NY 13114Zip CodesCitiesPopular Searches13114 homes for saleClay homes for saleOswego homes for saleCicero homes for sale
+
+---
+
+ls about size, beds\u002Fbaths, etc.\",\"canShowRentalEstimate\":true,\"homeFeaturesText\":\"5707 Scenic Ave Unit C is a 2,184 square foot multi-family home on a 0.5 acre lot with 5 bedrooms and 2 bathrooms.\",\"homeLastSoldBuiltText\":\"5707 Scenic Ave Unit C was built in 1900 and last sold on September 03, 2024 for $255,000.\",\"fullAddressText\":\"The full address for this home is 5707 Scenic Avenue Apartment C, Mexico,
+
+---
+
+c Ave Unit C is a 2,184 square foot multi-family home on a 0.5 acre lot with 5 bedrooms and 2 bathrooms.\",\"homeLastSoldBuiltText\":\"5707 Scenic Ave Unit C was built in 1900 and last sold on September 03, 2024 for $255,000.\",\"fullAddressText\":\"The full address for this home is 5707 Scenic Avenue Apartment C, Mexico, New York 13114.\",\"offMarketText\":\"it last sold on September 05, 2024 for $255,000\"}}","type":"application\u002Fjson
+
+---
+
+2F\"},\"riskSpecificSubsectionFlyoutUrlText2\":{\"value\":\"Learn more on massivecert.com\"},\"riskSpecificSubsectionDescription\":{\"value\":\"This property is estimated to be in FEMA Zone X (unshaded), which is designated as a low-to-moderate risk flood area. In this zone, the risk of flooding is reduced, but not completely removed.\"},\"riskSpecificSubsectionLink\":{\"value\":\"https:\u002F\u002Fwww.flood
+
+---
+
+ if you purchase a policy through this link. There may be other flood insurance providers in your area.\"},\"insuranceDescription\":{\"value\":\"Based on your estimated FEMA zone, flood insurance is not required. However, FEMA always recommends considering insurance.\\n\\nFlood insurance for this home ranges from $473 to $860 per year, based on information from 4 providers.\"},\"insuranceLink\":{\"value\":\"https:\u002F\u002F1s
+
+---
+
+value\":\"Based on your estimated FEMA zone, flood insurance is not required. However, FEMA always recommends considering insurance.\\n\\nFlood insurance for this home ranges from $473 to $860 per year, based on information from 4 providers.\"},\"insuranceLink\":{\"value\":\"https:\u002F\u002F1str.ee\u002Ft\u002Fhippo\u002Fflood\u002F363393012?source\\u003dredfin\"},\"insuranceLinkText\":{\"value\":\"Get an instant qu
+
+---
+
+gray\u002Fapi\u002Fhome\u002Fdetails\u002FaboveTheFold","requestData":{"urlPath":"\u002Fstingray\u002Fapi\u002Fhome\u002Fdetails\u002FaboveTheFold","method":"GET","queryParams":[{"propertyId":72377579,"accessLevel":1,"listingId":186434323,"pageType":3}],"postParams":null,"type":"json"},"requesters":1,"loaded":true,"res":{"_hasBody":true,"text":"{}&&{\"version\":633,\"errorMessage\":\"Success\",\"resultCode\":0,\"payl
+
+---
+
+002FaboveTheFold","requestData":{"urlPath":"\u002Fstingray\u002Fapi\u002Fhome\u002Fdetails\u002FaboveTheFold","method":"GET","queryParams":[{"propertyId":72377579,"accessLevel":1,"listingId":186434323,"pageType":3}],"postParams":null,"type":"json"},"requesters":1,"loaded":true,"res":{"_hasBody":true,"text":"{}&&{\"version\":633,\"errorMessage\":\"Success\",\"resultCode\":0,\"payload\":{\"addressSectionInfo\":{\"statu
+
+---
+
+exico/5707-Scenic-Ave-13114/unit-C/home/72377579","lastReviewed":"2024-09-05T14:11:36.620Z","image":{"@type":"ImageObject","url":"https://ssl.cdn-redfin.com/photo/189/bigphoto/925/S1531925_0.jpg","width":1024,"height":768},"offers":{"@type":"Offer","priceCurrency":"USD","price":255000,"url":"https://www.redfin.com/NY/Mexico/5707-Scenic-Ave-13114/unit-C/home/72377579","availability":"https://schema.org/Out
+
+---
+
+, 2024Listed$269,900$124/sq ftCNYIS #S1531559Jun 9, 2024Pending—Jun 8, 2024Listing Removed—Apr 15, 2024Listed$269,900$124/sq ftPublic RecordsMay 1, 2020Sold$170,500$78/sq ftCNYIS #S1242723Apr 3, 2020Sold$170,200$78/sq ftJan 30, 2020Contingent—Dec 19, 2019Listed$170,000$78/sq ft+26This two family house is located in the Village of Mexico, currently the owners lives in the lower apartment and uses the rent 
