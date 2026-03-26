@@ -1,0 +1,19 @@
+Source: https://www.mexiconyhistoricalsociety.com/mexico-historical-society-1.html
+Captured: 2026-03-25
+Method: public web fetch / raw HTML grep
+
+Relevant excerpt (from a page reproducing material credited to the August 28, 1942 Mexico Independent):
+
+"Credit for the expansion and founding of several prominent streets is given to Dr. Bowen and Calvin Goodwin. These pioneering gentlemen opened North Jefferson, Clinton, Fayette, Cemetery (now Liberty), and the south end of Scenic avenue. Scenic avenue has had three names. Several years it was renamed Scenic in place of Railroad street. In the village’s early history, the street was called Center street and it did not extend to the present railroad crossing which was built in 1868 when the first train passed thru Mexico."
+
+Additional relevant line on same page:
+
+"John Street was named in honor of the late John Aldrich, father of Mrs. Arthur Nelson of that street. When Mr. Aldrich first developed that area, John street was only a winding lane and Railroad street did not yet extend that far north from the center of the village."
+
+Why this matters:
+- Strong public-web corroboration that Scenic Ave = former Railroad Street = earlier Center Street.
+- Supports the working explanation for the 5355 Scenic / 5707 Scenic address-history mismatch.
+- Useful for tying the modern parcel to older map and newspaper references.
+
+Caveat:
+- This is a historical-society webpage reproducing a newspaper-based local-history note, not yet a scanned original newspaper image.

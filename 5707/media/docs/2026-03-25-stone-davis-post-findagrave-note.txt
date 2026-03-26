@@ -1,0 +1,16 @@
+Source: https://www.findagrave.com/memorial/99749623/lyman-c_-stacy
+Captured: 2026-03-25
+Method: public web fetch
+
+Relevant excerpt:
+
+"The funeral of Private Lyman C. Stacy, a member of Company A, 7th Infantry, A.E.F., whose death occurred in France, July 27, 1918, from wounds received at the second battle of the Marne was held from Whitney & Hill's undertaking rooms in Mexico Sunday, May 7, at 12:30 p.m. and from the M.E. church at 1 o'clock. The Rev. James Mathews officiated and the committal services at South Richland cemetery was in charge of Stone-Davis Post No. 384, American Legion."
+
+Source attribution on memorial page: Sandy Creek News, May 11, 1922.
+
+Why this matters:
+- Confirms Stone-Davis Post No. 384 was an active Mexico-area American Legion post by 1922.
+- Helps anchor the local post identity associated with the later American Legion ownership/use thread tied to the Skinner/Scenic house.
+
+Caveat:
+- This is a secondary public memorial page quoting a newspaper item, not yet a direct scan of the Sandy Creek News issue.
