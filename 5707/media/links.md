@@ -17,6 +17,7 @@
 - <https://www.wikidata.org/wiki/Q7807521>
 - <https://catalog.archives.gov/id/75314289>
 - <https://rptsweb.oswegocounty.com/propdetail.aspx?swis=353401&printkey=13401000020120000000>
+- <https://parks.ny.gov/preservation/programs/state-national-register>
 
 ## Pending assets to capture
 - current listing photos
@@ -25,3 +26,7 @@
 - deed images / scanned public records
 - FEMA flood map exports
 - historical photos from local historical society or archives
+
+## Added 2026-03-25 archive-hunt notes
+- `media/docs/2026-03-25-mexico-historical-society-street-history-note.txt`
+- `media/docs/2026-03-25-stone-davis-post-findagrave-note.txt`
