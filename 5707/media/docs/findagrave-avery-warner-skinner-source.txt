@@ -1,0 +1,3 @@
+Source: https://www.findagrave.com/memorial/26097863/avery_warner-skinner
+Accessed: 2026-03-26
+Notes: Photos page indicates 5 images. Automated image extraction is pending due to Cloudflare/dynamic loading barriers. Bio details captured into 13-skinner-family-network.html. Placeholder directory created at media/images/history/skinner-family/avery-warner-skinner/.
