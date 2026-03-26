@@ -18,6 +18,17 @@
 - <https://catalog.archives.gov/id/75314289>
 - <https://rptsweb.oswegocounty.com/propdetail.aspx?swis=353401&printkey=13401000020120000000>
 - <https://parks.ny.gov/preservation/programs/state-national-register>
+- <http://windowpreservationalliance.org/>
+- <http://vintagehousepart.com>
+- <http://www.secondchanceinc.org/>
+- <http://ewsalvage.com/>
+- <http://www.seconduse.com/>
+- <http://ballardreuse.com/>
+- <http://bauerbrotherssalvage.com/>
+- <http://www.guildedsalvage.com/>
+- <http://citysalvage.com/>
+- <http://www.architecturalaccents.com/>
+- <https://www.houseofantiquehardware.com/picture-rail-molding>
 
 ## Pending assets to capture
 - current listing photos
