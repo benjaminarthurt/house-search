@@ -130,6 +130,23 @@ code { background: rgba(255,255,255,.08); padding: .12rem .35rem; border-radius:
   overflow-wrap: break-word;
   word-break: break-word;
 }
+.gallery figure {
+  overflow: hidden;
+  margin: 0;
+}
+.gallery figure img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  background: #0b1020;
+}
+.gallery figure figcaption {
+  padding: .6rem .75rem;
+  font-size: .8rem;
+  color: var(--muted);
+  overflow-wrap: break-word;
+}
 
 /* --- Pills --- */
 .pill {
