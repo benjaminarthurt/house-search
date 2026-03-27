@@ -41,3 +41,10 @@
 ## Added 2026-03-25 archive-hunt notes
 - `media/docs/2026-03-25-mexico-historical-society-street-history-note.txt`
 - `media/docs/2026-03-25-stone-davis-post-findagrave-note.txt`
+
+## Added 2026-03-27 spouse pass
+- `media/docs/2026-03-27-spouse-pass.md`
+- Source URLs used in that extract:
+  - <https://www.findagrave.com/memorial/20897096/sarah_elizabeth-skinner>
+  - <https://www.findagrave.com/memorial/110744695/sarah_l-skinner>
+  - <https://www.findagrave.com/memorial/135807017/elizabeth_viola-stone>
