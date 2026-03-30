@@ -130,6 +130,23 @@ code { background: rgba(255,255,255,.08); padding: .12rem .35rem; border-radius:
   overflow-wrap: break-word;
   word-break: break-word;
 }
+.gallery figure {
+  overflow: hidden;
+  margin: 0;
+}
+.gallery figure img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  background: #0b1020;
+}
+.gallery figure figcaption {
+  padding: .6rem .75rem;
+  font-size: .8rem;
+  color: var(--muted);
+  overflow-wrap: break-word;
+}
 
 /* --- Pills --- */
 .pill {
@@ -149,7 +166,176 @@ code { background: rgba(255,255,255,.08); padding: .12rem .35rem; border-radius:
   .gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 
+/* --- Filter Panel --- */
+#filter-panel {
+  margin-bottom: 1.5rem;
+}
+
+.filter-toggle {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  background: var(--panelAlt);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 12px;
+  color: var(--text);
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background 0.2s;
+}
+
+.filter-toggle:hover {
+  background: rgba(125,211,252,.12);
+}
+
+.filter-container {
+  display: none;
+  background: rgba(18,25,51,.92);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.filter-toggle.active + .filter-container,
+.filter-container.show {
+  display: block;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.filter-header h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.clear-btn {
+  padding: 0.5rem 1rem;
+  background: rgba(192,132,252,.12);
+  border: 1px solid rgba(192,132,252,.24);
+  border-radius: 8px;
+  color: var(--accent2);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.clear-btn:hover {
+  background: rgba(192,132,252,.24);
+}
+
+.filter-controls {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.filter-group h3 {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.filter-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s;
+  font-size: 0.95rem;
+}
+
+.filter-group label:hover {
+  background: rgba(255,255,255,.04);
+}
+
+.filter-group input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: var(--accent);
+}
+
+.filter-group select {
+  padding: 0.6rem 0.75rem;
+  background: var(--panelAlt);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.filter-group select:hover,
+.filter-group select:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+.result-count {
+  padding: 0.75rem 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+  border-top: 1px solid rgba(255,255,255,.08);
+  text-align: center;
+}
+
+.media-card.hidden {
+  display: none;
+}
+
+/* --- File cards (non-image media) --- */
+.file-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  background: linear-gradient(135deg, rgba(125,211,252,.06), rgba(192,132,252,.04));
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.file-icon {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  font-family: monospace;
+  letter-spacing: 0.1em;
+}
+
 /* --- Large screens: desktop (≥ 980px) --- */
+@media (min-width: 700px) {
+  .filter-container {
+    display: block;
+  }
+
+  .filter-toggle {
+    display: none;
+  }
+
+  .filter-controls {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+}
+
 @media (min-width: 980px) {
   .shell { padding: 1.25rem; }
   .layout { grid-template-columns: 280px 1fr; }
@@ -164,4 +350,8 @@ code { background: rgba(255,255,255,.08); padding: .12rem .35rem; border-radius:
   .panel { padding: 1rem; }
   .gallery { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .cards { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+  .filter-controls {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
