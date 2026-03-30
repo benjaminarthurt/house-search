@@ -20,7 +20,7 @@ From search result preview:
 - **Timeline:** July 30, 1936 places this event during the latter stages of the Great Depression
 - **Local Impact:** Front-page coverage indicates this was a significant local news event
 - **Family Connection:** Represents a major life change for family patriarch W. Skinner
-- **Context Clues:** References to "Methodist Boys," "Oswego Farmers," and agricultural activity suggest possible connection to farming, agriculture organizations, or community institutions
+- **Context Clues:** References to "Methodist Boys," "Oswego Farmers," and agricultural activity suggest possible connection to farming or community institutions
 
 ## Notes
 
