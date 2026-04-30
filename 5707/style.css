@@ -321,6 +321,18 @@ code { background: rgba(255,255,255,.08); padding: .12rem .35rem; border-radius:
   letter-spacing: 0.1em;
 }
 
+/* --- Nav group labels --- */
+.nav-group-label {
+  padding: .5rem .85rem .25rem;
+  font-size: .68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--accent2);
+  margin-top: .5rem;
+}
+.nav-group-label:first-child { margin-top: 0; }
+
 /* --- Large screens: desktop (≥ 980px) --- */
 @media (min-width: 700px) {
   .filter-container {

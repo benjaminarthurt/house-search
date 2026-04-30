@@ -3,52 +3,166 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nothing Here</title>
+  <title>The Timothy Skinner House — Mexico, NY</title>
   <style>
     :root {
-      color-scheme: light dark;
-      --bg: #0f1115;
-      --fg: #e8eaed;
-      --muted: #9aa0a6;
-      --card: #171a21;
-      --border: #2a2f3a;
+      --bg: #0b1020;
+      --panel: #121933;
+      --text: #eef2ff;
+      --muted: #b4bdd6;
+      --line: #2a3658;
+      --accent: #7dd3fc;
+      --accent2: #c084fc;
     }
+    * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: var(--bg);
-      color: var(--fg);
-      display: grid;
-      place-items: center;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(180deg, #121933 0, #0b1020 300px);
+      color: var(--text);
+      line-height: 1.6;
       min-height: 100vh;
-      padding: 2rem;
     }
-    .card {
-      max-width: 38rem;
-      width: 100%;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 2rem;
-      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header {
+      position: sticky; top: 0; z-index: 20;
+      background: rgba(11,16,32,.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      padding: 1rem 1.5rem;
+    }
+    .brand { font-weight: 800; letter-spacing: .02em; color: var(--text); }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+    }
+    .eyebrow {
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: .74rem;
+      font-weight: 700;
+      margin-bottom: .5rem;
     }
     h1 {
-      margin: 0 0 .5rem;
-      font-size: clamp(2rem, 4vw, 3rem);
+      font-size: clamp(2rem, 6vw, 3.2rem);
       line-height: 1.1;
+      margin: .25rem 0 1rem;
     }
-    p {
-      margin: 0;
+    .subtitle {
+      font-size: 1.15rem;
       color: var(--muted);
+      margin-bottom: 2rem;
+      max-width: 56ch;
+    }
+    .hero-img {
+      width: 100%;
+      max-height: 420px;
+      object-fit: cover;
+      border-radius: 18px;
+      border: 1px solid rgba(255,255,255,.08);
+      margin-bottom: 2.5rem;
+      display: block;
+      background: var(--panel);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+    .card {
+      background: rgba(18,25,51,.92);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 16px;
+      padding: 1.25rem;
+      box-shadow: 0 10px 28px rgba(0,0,0,.22);
+    }
+    .card h3 { margin: 0 0 .5rem; font-size: 1rem; }
+    .card p { margin: 0; font-size: .9rem; color: var(--muted); }
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      background: linear-gradient(135deg, rgba(125,211,252,.18), rgba(192,132,252,.12));
+      border: 1px solid rgba(125,211,252,.28);
+      border-radius: 12px;
+      padding: .8rem 1.4rem;
+      font-weight: 700;
       font-size: 1rem;
-      line-height: 1.6;
+      color: var(--text);
+      transition: background .2s;
+    }
+    .cta:hover { background: linear-gradient(135deg, rgba(125,211,252,.28), rgba(192,132,252,.2)); text-decoration: none; }
+    .pills { margin-bottom: 1.5rem; }
+    .pill {
+      display: inline-block;
+      background: rgba(125,211,252,.12);
+      color: var(--accent);
+      padding: .28rem .58rem;
+      border-radius: 999px;
+      margin: .25rem .3rem 0 0;
+      font-size: .8rem;
+      font-weight: 700;
+    }
+    .divider { border: none; border-top: 1px solid rgba(255,255,255,.08); margin: 2rem 0; }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: .85rem;
+      color: var(--muted);
+      border-top: 1px solid rgba(255,255,255,.06);
     }
   </style>
 </head>
 <body>
-  <main class="card">
-    <h1>Nothing here.</h1>
-    <p>This site is currently empty.</p>
+  <header>
+    <span class="brand">The Timothy Skinner House</span>
+  </header>
+  <main>
+    <div class="eyebrow">National Register of Historic Places · Mexico, NY</div>
+    <h1>The Timothy Skinner House</h1>
+    <p class="subtitle">A large brick Italianate residence built c. 1850 at 5707 Scenic Ave (formerly Railroad Street), Mexico, Oswego County, New York — listed on the National Register of Historic Places in 1991.</p>
+
+    <img class="hero-img"
+         src="5707/media/images/historic/timothy-skinner-house-wikipedia-image.jpg"
+         alt="The Timothy Skinner House — historic photograph">
+
+    <div class="pills">
+      <span class="pill">NRHP Listed 1991</span>
+      <span class="pill">Built c. 1850</span>
+      <span class="pill">Italianate brick</span>
+      <span class="pill">Skinner family</span>
+      <span class="pill">Mexico, NY</span>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>House History</h3>
+        <p>Built by Timothy Warner Skinner, lawyer and Oswego County Surrogate. Home to the Skinner family for generations before passing to the American Legion.</p>
+      </div>
+      <div class="card">
+        <h3>Skinner Family</h3>
+        <p>Timothy W. Skinner (1827–1915), his son Dr. Avery Warner Skinner, and their extended family are documented with portraits, genealogy, and historical newspaper records.</p>
+      </div>
+      <div class="card">
+        <h3>Archival Media</h3>
+        <p>Historic maps, newspaper clippings, NRHP nomination documents, FindAGrave portraits, site-visit photographs, and preserved web sources — all indexed and browsable.</p>
+      </div>
+      <div class="card">
+        <h3>NRHP Nomination</h3>
+        <p>The house was added to the National Register of Historic Places in 1991 (ref 91000526) as part of the Mexico Village Multiple Property Submission.</p>
+      </div>
+    </div>
+
+    <a class="cta" href="5707/index.html">Browse the Archive →</a>
+
+    <hr class="divider">
+
+    <p style="color:var(--muted);font-size:.9rem;">This site is an historical research archive documenting the house, its architectural history, and the Skinner family of Mexico, NY. It is not a real-estate listing.</p>
   </main>
+  <footer>The Timothy Skinner House — Mexico, NY · Historical Research Archive</footer>
 </body>
 </html>
